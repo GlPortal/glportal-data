@@ -21,7 +21,7 @@ out vec3 pass_normal;
 
 void main() {
 	pass_position = position;
-	pass_texCoord = vec2(texCoord.x * tiling.x, texCoord.y * tiling.y);
+	pass_texCoord = vec2(texCoord.x / tiling.x, texCoord.y / tiling.y);
 	pass_normal = normal;
 	
 	gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(position, 1);
