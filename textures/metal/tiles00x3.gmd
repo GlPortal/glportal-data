@@ -1,0 +1,11 @@
+<mat name="metal/tiles00x3" fancyname="Metal tiles .5x">
+	<diffuse path="tiles00x3.png"/>
+	<specular path="tiles00x3s.png"/>
+	<normal path="tiles00x3n.png"/>
+	<height path="tiles00x3h.png"/>
+	<portal able="no" bump="no"/>
+	<scale u="1" v="1/>
+	<kind>metal</kind>
+	<tags>metal,tiles</tags>
+	<tiles scale="3"/>
+</mat>

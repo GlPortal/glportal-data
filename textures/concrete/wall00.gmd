@@ -1,0 +1,7 @@
+<mat name="concrete/wall00" fancyname="Concrete wall">
+	<diffuse path="wall00.png"/>
+	<portal able="yes" bump="yes"/>
+	<scale u="1" v="1/>
+	<kind>concrete</kind>
+	<tags>concrete,wall</tags>
+</mat>
