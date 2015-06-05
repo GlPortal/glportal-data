@@ -17,6 +17,7 @@ uniform int numLights;
 in vec3 pass_position;
 in vec2 pass_texCoord;
 in vec3 pass_normal;
+in vec3 pass_tangent;
 
 out vec4 out_Color;
 

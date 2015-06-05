@@ -14,15 +14,18 @@ uniform vec2 tiling;
 in vec3 position;
 in vec2 texCoord;
 in vec3 normal;
+in vec3 tangent;
 
 out vec3 pass_position;
 out vec2 pass_texCoord;
 out vec3 pass_normal;
+out vec3 pass_tangent;
 
 void main() {
 	pass_position = position;
 	pass_texCoord = vec2(texCoord.x / tiling.x, texCoord.y / tiling.y);
 	pass_normal = normal;
+	pass_tangent = tangent;
 	
 	gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(position, 1);
 }
