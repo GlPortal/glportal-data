@@ -1,6 +1,6 @@
 <mat name="metal/tiles00x3" fancyname="Metal tiles .5x">
 	<diffuse path="tiles00x3.png"/>
-	<specular path="tiles00x3s.png"/>
+	<specular path="tiles00x3s.png" shininess="64"/>
 	<normal path="tiles00x3n.png"/>
 	<height path="tiles00x3h.png"/>
 	<portal able="no" bump="no"/>

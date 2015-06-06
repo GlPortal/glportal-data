@@ -12,7 +12,7 @@
 		<position x="25" y="0" z="5"/>
 		<rotation x="0" y="90" z="0"/>
 	</end>
-	<light x="10" y="7.5" z="5" r="1" g="0.95" b="0.9" distance="4" energy="5" />
+	<light x="10" y="7.5" z="5" r="1" g="0.95" b="0.9" distance="4" energy="5" specular="1" />
 	<light x="24.5" y="3" z="5" r="0.5" g="0.5" b="1" distance="4" energy="5" />
 	<light x="15" y="6" z="5" r="1" g="0.95" b="0.9" distance="60" energy="0.4" />
 	<light x="5" y="6" z="5" r="1" g="0.95" b="0.9" distance="120" energy="0.4" />
