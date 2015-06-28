@@ -1,5 +1,7 @@
 <mat name="concrete/wall00" fancyname="Concrete wall">
 	<diffuse path="wall00.png"/>
+	<specular path="wall00xs.jpg" shininess="256"/>
+	<normal path="wall00xn.jpg"/>
 	<portal able="yes" bump="yes"/>
 	<scale u="1" v="1/>
 	<kind>concrete</kind>

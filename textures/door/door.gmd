@@ -1,0 +1,8 @@
+<mat name="door/door" fancyname="Metal Door">
+	<diffuse path="door00.png"/>
+	<portal able="no" bump="no"/>
+	<scale u="1" v="1/>
+	<kind>metal</kind>
+	<tags>metal,tiles</tags>
+	<tiles scale="1"/>
+</mat>
