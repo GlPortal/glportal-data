@@ -4,7 +4,7 @@
 	<normal path="tiles00x3n.jpg"/>
 	<height path="tiles00x3h.png"/>
 	<portal able="no" bump="no"/>
-	<scale u="1" v="1/>
+	<scale u="1" v="1"/>
 	<kind>metal</kind>
 	<tags>metal,tiles</tags>
 	<tiles scale="3"/>
