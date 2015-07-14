@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<map>
+	<!-- Materials definition -->
+	<materials>
+		<mat mid="1" name="concrete/wall00"/>
+		<mat mid="2" name="metal/tiles00x3"/>
+	</materials>
+
+	<!-- Set up start position -->
+	<spawn>
+		<position x="0" y="0" z="4"/>
+		<rotation x="0" y="0" z="0"/>
+	</spawn>
+
+	<!-- Set up end position -->
+	<end>
+		<position x="16.5" y="3.5" z="5"/>
+		<rotation x="0" y="0" z="0"/>
+	</end>
+
+	<!-- Main light -->
+	<light x="5" y="7" z="0" r="1" g="0.95" b="0.9" distance="12" energy="2" />
+	<light x="10" y="7" z="0" r="1" g="0.95" b="0.9" distance="12" energy="2" />
+	<light x="16.5" y="7" z="4" r="0.5" g="0.5" b="1" distance="3" energy="4" specular="1" />
+
+	<light x="10" y="7.5" z="0" r="1" g="0.95" b="0.9" distance="30" energy="0.2" />
+
+	<!-- Left floor -->
+	<wall mid="2">
+		<position x="0" y="-1" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="3.0" y="1.0" z="10.0"/>
+	</wall>
+
+	<!-- Left portal wall -->
+	<wall mid="1">
+		<position x="-2" y="3.5" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="8" z="10"/>
+	</wall>
+
+	<!-- Front wall -->
+	<wall mid="2">
+		<position x="8.5" y="3.5" z="-5.5"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="20" y="8" z="1"/>
+	</wall>
+
+	<!-- Back wall -->
+	<wall mid="2">
+		<position x="8.5" y="3.5" z="5.5"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="20" y="8" z="1"/>
+	</wall>
+
+	<!-- Middle wall -->
+	<wall mid="2">
+		<position x="3.5" y="1.5" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="4" y="4" z="10"/>
+	</wall>
+
+	<!-- Acid pool in middle -->
+	<acid>
+		<position x="10" y="2" z="0"/>
+		<scale x="9" y="1" z="10"/>
+	</acid>
+
+	<!-- Dead trigger for acid pool -->
+	<trigger type="death">
+		<position x="10" y="2.1" z="0"/>
+		<scale x="9" y="1" z="10"/>
+	</trigger>
+
+	<!-- Right platform -->
+	<wall mid="2">
+		<position x="16.5" y="3" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="4" y="1" z="10"/>
+	</wall>
+
+	<!-- Right portal wall -->
+	<wall mid="1">
+		<position x="19" y="5.5" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="4" z="10"/>
+	</wall>
+
+	<!-- Ceiling -->
+	<wall mid="2">
+		<position x="8.5" y="8" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="20" y="1" z="10"/>
+	</wall>
+</map>
