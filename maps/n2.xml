@@ -168,13 +168,23 @@
 		<rotation x="0" y="0" z="0"/>
 		<scale x="2.0" y="1.0" z="2.0"/>
 	</wall>
-	
+
 	<!-- End room -->
 	<wall mid="2">
 		<position x="7" y="11.5" z="7"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="2.0" y="1.0" z="2.0"/>
 	</wall>
+	<!-- Acid in End room-->
+	<acid>
+		<position x="1.25" y="0.5" z="2.8"/>
+		<scale x="13.5" y="0.0" z="10.5"/>
+	</acid>
+	<!-- Dead trigger for acid -->
+	<trigger type="death">
+		<position x="1.25" y="0.6" z="2.8"/>
+		<scale x="13.5" y="0.0" z="10.5"/>
+	</trigger>
 	<!-- Ridge -->
 	<wall mid="2">
 		<position x="-5.25" y="11.5" z="2.75"/>
