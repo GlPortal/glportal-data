@@ -8,7 +8,7 @@
 
 	<!-- Set up start position -->
 	<spawn>
-		<position x="0" y="0" z="4"/>
+		<position x="0" y="1" z="4"/>
 		<rotation x="0" y="0" z="0"/>
 	</spawn>
 
