@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<map>
+	<!-- Materials definition -->
+	<materials>
+		<mat mid="1" name="concrete/wall00"/>
+		<mat mid="2" name="metal/tiles00x3"/>
+	</materials>
+
+	<!-- Set up start position -->
+	<spawn>
+		<position x="0" y="1" z="0"/>
+		<rotation x="0" y="180" z="0"/>
+	</spawn>
+
+	<!-- Set up end position -->
+	<end>
+		<position x="17.5" y="-0.5" z="16"/>
+		<rotation x="0" y="90" z="0"/>
+	</end>
+
+	<!-- End light -->
+	<light x="17.4" y="2" z="16" r="0.5" g="0.5" b="1" distance="2" energy="4" />
+	<!-- Main light behind wall (on th side with end) -->
+	<light x="15" y="7" z="8" r="1" g="0.95" b="0.9" distance="20" energy="1.5" specular="1" />
+	<!-- Main light ( on th side with spawn ) -->
+	<light x="0" y="7" z="8" r="1" g="0.95" b="0.9" distance="20" energy="1.65" specular="1" />
+
+	<!-- Lights somewhere around -->
+	<light x="9" y="4" z="8" r="1" g="0.95" b="0.9" distance="30" energy="0.2" specular="1" />
+	<light x="7" y="4" z="7" r="1" g="0.95" b="0.9" distance="30" energy="0.2" specular="1" />
+	<light x="12" y="7" z="15" r="1" g="0.95" b="0.9" distance="30" energy="0.1" />
+
+	<!-- First Platform ( Spawn )-->
+	<wall mid="2">
+		<position x="0" y="-1" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="5.0" y="1.0" z="5.0"/>
+	</wall>
+
+	<!-- Second Platform ( Behind wall )-->
+	<wall mid="2">
+		<position x="15" y="-1" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="5.0" y="1.0" z="5.0"/>
+	</wall>
+
+	<!-- Third Platform ( In front of spawn )-->
+	<wall mid="2">
+		<position x="0" y="-1" z="15"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="5.0" y="1.0" z="5.0"/>
+	</wall>
+
+	<!-- Fourth Platform ( aboce end )-->
+	<wall mid="2">
+		<position x="15" y="3.25" z="15"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="5.0" y="0.5" z="5.0"/>
+	</wall>
+
+	<!-- Fourth Platform ( end ) -->
+	<wall mid="2">
+		<position x="16" y="-1" z="16"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="3" y="1" z="3"/>
+	</wall>
+
+	<!-- Acid -->
+	<acid>
+		<position x="7.5" y="-2" z="7.5"/>
+		<scale x="20" y="1" z="20"/>
+	</acid>
+
+	<!-- Death trigger for Acid -->
+	<trigger type="death">
+		<position x="7.5" y="-1.8" z="7.5"/>
+		<scale x="20" y="1" z="20"/>
+	</trigger>
+
+	<!-- Ceiling -->
+	<wall mid="2">
+		<position x="7.5" y="8" z="7.5"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="20" y="1" z="20"/>
+	</wall>
+
+	<!-- Outer walls -->
+	<wall mid="2">
+		<position x="-3" y="4" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="9" z="5"/>
+	</wall>
+
+	<wall mid="2">
+		<position x="-3" y="3" z="10"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="9" z="15"/>
+	</wall>
+
+	<!-- Portal wall -->
+	<wall mid="1">
+		<position x="18" y="3.5" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="8" z="5"/>
+	</wall>
+
+	<wall mid="2">
+		<position x="18" y="3" z="7.5"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="9" z="10"/>
+	</wall>
+
+	<!-- Wall near the end -->
+	<wall mid="2">
+		<position x="18" y="1" z="15"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="5" z="5"/>
+	</wall>
+
+	<!-- Portal wall on platform above end -->
+	<wall mid="1">
+		<position x="18" y="5.5" z="15"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="4" z="5"/>
+	</wall>
+
+	<!-- Portal wall near spawn -->
+	<wall mid="1">
+		<position x="0" y="3.5" z="-3"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="5" y="8" z="1"/>
+	</wall>
+
+	<wall mid="2">
+		<position x="7.5" y="3" z="-3"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="10" y="9" z="1"/>
+	</wall>
+
+	<!-- Portal wall second platform -->
+	<wall mid="1">
+		<position x="15" y="3.5" z="-3"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="5" y="8" z="1"/>
+	</wall>
+
+	<!-- Portal wall second platform -->
+	<wall mid="1">
+		<position x="0" y="3.5" z="18"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="5" y="8" z="1"/>
+	</wall>
+
+	<wall mid="2">
+		<position x="7.5" y="3" z="18"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="10" y="9" z="1"/>
+	</wall>
+
+	<!-- Portal wall near fourth platform -->
+	<wall mid="1">
+		<position x="15" y="5.5" z="18"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="5" y="4" z="1"/>
+	</wall>
+
+	<!-- Portal wall near end -->
+	<wall mid="1">
+		<position x="15" y="1.25" z="18"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="5" y="3.5" z="1"/>
+	</wall>
+
+	<!-- Little piece of wall near end -->
+	<wall mid="2">
+		<position x="13.5" y="-1" z="18"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2" y="1" z="1"/>
+	</wall>
+
+	<!-- Middle wall -->
+	<!-- Big part -->
+	<wall mid="2">
+		<position x="7.5" y="2.5" z="5"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="8" z="15"/>
+	</wall>
+
+	<!-- Small part -->
+	<wall mid="2">
+		<position x="7.5" y="1" z="15"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="1" y="5" z="5"/>
+	</wall>
+</map>

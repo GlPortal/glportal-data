@@ -17,11 +17,11 @@
 	<light x="15" y="6" z="5" r="1" g="0.95" b="0.9" distance="60" energy="0.4" />
 	<light x="5" y="6" z="5" r="1" g="0.95" b="0.9" distance="120" energy="0.4" />
 	<light x="10" y="1" z="5" r="1" g="0.95" b="0.9" distance="120" energy="0.4" />
-	
+
 	<texture source="test.png">
 		<GUIbutton x="200" y="100" w="50" h="50" />
 	</texture>
-	
+
 	<!-- Top portal wall -->
 	<wall mid="1">
 		<position x="20.25" y="6" z="5"/>
@@ -36,15 +36,15 @@
 	</wall>
 	<!-- Left wall -->
 	<wall mid="1">
-		<position x="10" y="0" z="-0.5"/>
+		<position x="10.5" y="1.5" z="-0.5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="20.0" y="16.0" z="1.0"/>
+		<scale x="19.0" y="13.0" z="1.0"/>
 	</wall>
 	<!-- Right wall -->
 	<wall mid="1">
-		<position x="10" y="0" z="10.5"/>
+		<position x="10.5" y="1.5" z="10.5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="20.0" y="16.0" z="1.0"/>
+		<scale x="19.0" y="13.0" z="1.0"/>
 	</wall>
 
 
@@ -84,7 +84,7 @@
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1.0" y="8.0" z="3.0"/>
 	</wall>
-	
+
 	<!-- Hall -->
 	<!-- Left wall -->
 	<wall mid="2">
@@ -116,7 +116,7 @@
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1.0" y="4.0" z="4.0"/>
 	</wall>
-	
+
 	<!-- Pit -->
 	<!-- Floor -->
 	<!-- Left wall -->
