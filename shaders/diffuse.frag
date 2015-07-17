@@ -31,10 +31,8 @@ out vec4 out_Color;
 float calcPointAtt(Light light, vec3 lightDir) {
 	float lightLength = length(lightDir);
 	float x = lightLength / light.distance;
-	float fAtt = 1 - sqrt(x);
-	if (fAtt < 0) {
-		fAtt = 0;
-	}
+	float fAtt = max(0, 1 - sqrt(x));
+
 	return fAtt;
 }
 
