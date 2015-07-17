@@ -39,13 +39,14 @@ float calcPointAtt(Light light, vec3 lightDir) {
 }
 
 void main(void) {
+
 	vec3 refl = vec3(0, 0, 0);
 
 	//Calculate the location of this fragment (pixel) in world coordinates
 	vec3 position = (modelMatrix * vec4(pass_position, 1)).xyz;
 
 	// Normals
-	vec4 encodedNormal = texture2D(normalMap, pass_texCoord);
+	vec4 encodedNormal = texture(normalMap, pass_texCoord);
 	vec3 localCoords = 2.0 * encodedNormal.rgb - vec3(1.0);
 	vec3 normal = normalize(pass_surf2world * localCoords);
 	vec3 viewDirection = normalize(vec3(invViewMatrix * vec4(0.0, 0.0, 0.0, 1.0) - vec4(position, 1.0)));
@@ -62,7 +63,9 @@ void main(void) {
 		float fDiffuse = clamp(dot(normal, lightDir), 0, 1);
 		refl += light.color * fDiffuse * light.energy * fAtt;
 		if (shininess > 0.0) {
-			refl += fAtt * light.specular * texture2D(specularMap, pass_texCoord).rgb * pow(max(0.0, dot(reflect(-lightDir, normal), viewDirection)), shininess);
+			vec3 halfDir = normalize(lightDir + viewDirection);
+			float fSpecular = pow(max(dot(halfDir, normal), 0.0), shininess);
+			refl += fAtt * light.specular * fSpecular * texture(specularMap, pass_texCoord).rgb;
 		}
 	}
 	refl += ambient;
