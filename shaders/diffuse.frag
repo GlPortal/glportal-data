@@ -39,7 +39,6 @@ float calcPointAtt(Light light, vec3 lightDir) {
 }
 
 void main(void) {
-
 	vec3 refl = vec3(0, 0, 0);
 
 	//Calculate the location of this fragment (pixel) in world coordinates
@@ -47,7 +46,7 @@ void main(void) {
 
 	// Normals
 	vec4 encodedNormal = texture(normalMap, pass_texCoord);
-	vec3 localCoords = 2.0 * encodedNormal.rgb - vec3(1.0);
+	vec3 localCoords = 2 * encodedNormal.xyz - 1;
 	vec3 normal = normalize(pass_surf2world * localCoords);
 	vec3 viewDirection = normalize(vec3(invViewMatrix * vec4(0.0, 0.0, 0.0, 1.0) - vec4(position, 1.0)));
 
