@@ -1,0 +1,7 @@
+<mat name="fluid/acid00" fancyname="Acid pool">
+	<diffuse path="acid00.png"/>
+	<surface portalable="false"/>
+	<scale u="1" v="1"/>
+	<kind>fluid</kind>
+	<tags>fluid,pool</tags>
+</mat>
