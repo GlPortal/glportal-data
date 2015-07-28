@@ -120,5 +120,5 @@ out vec4 out_Color;
 
 void main(void) {
 	float noise = (snoise(vec3(pass_position.xy*8.0, time))+2)*0.33;
-	out_Color = vec4(color, 1.0)*texture(diffuse, pass_texCoord)*vec4(noise, noise, noise, clamp(noiseAlpha+noise, 0.0, 1.0));
+	out_Color = vec4(noise * color, clamp(noiseAlpha+noise, 0.0, 1.0))*texture(diffuse, pass_texCoord);
 }
