@@ -74,9 +74,9 @@
 	</wall>
 	<!-- Front wall left -->
 	<wall mid="2">
-		<position x="20.25" y="4" z="1.5"/>
+		<position x="20.5" y="4" z="1.5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="0.5" y="8.0" z="3.0"/>
+		<scale x="1" y="8.0" z="3.0"/>
 	</wall>
 	<!-- Front wall right -->
 	<wall mid="2">
@@ -88,15 +88,15 @@
 	<!-- Hall -->
 	<!-- Left wall -->
 	<wall mid="2">
-		<position x="22.75" y="2" z="2.5"/>
+		<position x="23" y="2" z="2.5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="4.5" y="4.0" z="1.0"/>
+		<scale x="4" y="4.0" z="1.0"/>
 	</wall>
 	<!-- Right wall -->
 	<wall mid="2">
-		<position x="22.75" y="2" z="7.5"/>
+		<position x="23" y="2" z="7.5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="4.5" y="4.0" z="1.0"/>
+		<scale x="4" y="4.0" z="1.0"/>
 	</wall>
 	<!-- Floor -->
 	<wall mid="2">
@@ -107,7 +107,7 @@
 	<!-- Ceiling -->
 	<wall mid="2">
 		<position x="22.75" y="4.5" z="5"/>
-		<rotation x="0" y="0" z="0"/>
+		<rotation x="0" y="180" z="0"/>
 		<scale x="4.5" y="1.0" z="4.0"/>
 	</wall>
 	<!-- Front wall -->
