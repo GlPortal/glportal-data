@@ -4,46 +4,60 @@
 		<mat mid="1" name="metal/tiles00x3"/>
 		<mat mid="2" name="concrete/wall00"/>
 	</materials>
+
 	<spawn>
-		<position x="0.0" y="1.0" z="-0.0"/>
-		<rotation x="0.0" y="0.0" z="1.2722218725854067e-14"/>
+		<position x="0.0" y="1.0" z="0.0"/>
+		<rotation x="0.0" y="0.0" z="0"/>
 	</spawn>
+
 	<end>
-		<position x="7.450580596923828e-09" y="5.0" z="5.0"/>
+		<position x="0" y="5.0" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="0.0"/>
 	</end>
-	<light x="0.0" y="6.0" z="-12.0" b="1.0" g="0.8020101189613342" r="0.7360134720802307" c="0" l="0.05" q="0.08" />
-	<light x="0.0" y="3" z="0" b="1.0" g="0.8020101189613342" r="0.7360134720802307" c="0" l="0.05" q="0.08" />
+
+	<!-- Lights in End room -->
+	<!-- End light -->
+	<light x="0" y="8.5" z="4.5" r="0.5" g="0.5" b="1" distance="3" energy="4" />
+	<!-- Main light -->
+	<light x="0" y="9" z="-1" r="1" g="0.95" b="0.9" distance="8" energy="2.7" />
+
+	<!-- Main light in Spawn room -->
+	<light x="0" y="4" z="0" r="1" g="0.95" b="0.9" distance="8.5" energy="3" />
+	<!-- Main light in "Portal" room -->
+	<light x="0" y="6.5" z="-10" r="1" g="0.95" b="0.9" distance="10" energy="2.7" />
+	<!-- Specular light -->
+	<light x="0" y="7.5" z="-6" r="1" g="0.95" b="0.9" distance="60" energy="0.2" specular="1" />
+
 
 	<wall mid="1">
-		<position x="-1.1920928955078125e-07" y="9.0" z="-5.25"/>
+		<position x="0" y="9.0" z="-5.25"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="2.000002861022949" y="3.0" z="0.5"/>
+		<scale x="2" y="3.0" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="-5.249999523162842" y="8.0" z="-0.25"/>
+		<position x="-5.25" y="7.75" z="0"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="0.5" y="6.0" z="10.5"/>
+		<scale x="0.5" y="5.5" z="10"/>
 	</wall>
 	<wall mid="1">
-		<position x="5.250000476837158" y="8.0" z="-0.25"/>
+		<position x="5.25" y="7.75" z="0"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="0.5" y="6.0" z="10.5"/>
+		<scale x="0.5" y="5.5" z="10"/>
 	</wall>
 	<wall mid="1">
-		<position x="-1.9371509552001953e-07" y="5.5" z="-15.75"/>
+		<position x="0" y="5.5" z="-15.75"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="10.00000286102295" y="11.0" z="0.5"/>
+		<scale x="10" y="10.0" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="0.0" y="10.75" z="-0.25"/>
+		<position x="0.0" y="10.75" z="0"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="10.0" y="0.5" z="10.5"/>
+		<scale x="10.0" y="0.5" z="10"/>
 	</wall>
 	<wall mid="1">
-		<position x="-5.249999523162842" y="5.5" z="-10.75"/>
+		<position x="-5.25" y="5.5" z="-10.5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="0.5" y="11.0" z="10.5"/>
+		<scale x="0.5" y="10.0" z="10"/>
 	</wall>
 	<wall mid="1">
 		<position x="0.0" y="10.75" z="-10.5"/>
@@ -51,97 +65,112 @@
 		<scale x="10.0" y="0.5" z="10.0"/>
 	</wall>
 	<wall mid="1">
-		<position x="5.250000476837158" y="5.5" z="-10.75"/>
+		<position x="5.25" y="5.5" z="-10.5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="0.5" y="11.0" z="10.5"/>
+		<scale x="0.5" y="10.0" z="10"/>
+	</wall>
+	<wall mid="1"><!-- Middle wall - left -->
+		<position x="3.0" y="7.5" z="-5.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="4" y="6" z="0.5"/>
+	</wall>
+	<wall mid="1"><!-- Middle wall - right -->
+		<position x="-3" y="7.5" z="-5.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="4" y="6" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="3.0" y="7.75" z="-5.25"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="4.000002861022949" y="5.5" z="0.5"/>
+		<position x="4.0" y="2.75" z="-5.25"/>
+		<rotation x="0" y="180" z="0"/>
+		<scale x="2" y="0.5" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="-3.000000238418579" y="7.75" z="-5.25"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="4.000002861022949" y="5.5" z="0.5"/>
+		<position x="4.0" y="2.75" z="-6.75"/>
+		<rotation x="0" y="180" z="0"/>
+		<scale x="2" y="0.5" z="2.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="4.0" y="2.749999761581421" z="-6.74333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.000000476837158" y="0.5000002980232239" z="2.500000238418579"/>
-	</wall>
-	<wall mid="1">
-		<position x="4.0" y="2.25" z="-8.24333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.0" y="0.5000000596046448" z="0.5000003576278687"/>
-	</wall>
-	<wall mid="1">
-		<position x="4.0" y="1.75" z="-8.74333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.0" y="0.5000000596046448" z="0.5000003576278687"/>
-	</wall>
-	<wall mid="1">
-		<position x="4.0" y="1.25" z="-9.24333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.0" y="0.5000000596046448" z="0.5000003576278687"/>
-	</wall>
-	<wall mid="1">
-		<position x="4.0" y="0.7500001788139343" z="-9.74333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.0" y="0.5000000596046448" z="0.5000003576278687"/>
-	</wall>
-	<wall mid="1">
-		<position x="-4.0" y="0.7500001788139343" z="-9.74333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.0" y="0.5000000596046448" z="0.5000003576278687"/>
-	</wall>
-	<wall mid="1">
-		<position x="-4.0" y="1.25" z="-9.24333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.0" y="0.5000000596046448" z="0.5000003576278687"/>
-	</wall>
-	<wall mid="1">
-		<position x="-4.0" y="1.75" z="-8.74333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.0" y="0.5000000596046448" z="0.5000003576278687"/>
-	</wall>
-	<wall mid="1">
-		<position x="-4.0" y="2.25" z="-8.24333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.0" y="0.5000000596046448" z="0.5000003576278687"/>
-	</wall>
-	<wall mid="1">
-		<position x="-3.999999761581421" y="2.749999761581421" z="-6.74333381652832"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="2.000000476837158" y="0.5000002980232239" z="2.500000238418579"/>
-	</wall>
-	<wall mid="1">
-		<position x="-1.9371509552001953e-07" y="8.0" z="5.25"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="11.00000286102295" y="6.0" z="0.5"/>
-	</wall>
-	<wall mid="1">
-		<position x="0.0" y="4.75" z="-0.25"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="10.0" y="0.5" z="10.5"/>
-	</wall>
-	<wall mid="1">
-		<position x="4.0" y="1.25" z="-5.25"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="1.9999998807907104" y="3.5" z="0.5"/>
-	</wall>
-	<wall mid="1">
-		<position x="-4.0" y="1.25" z="-5.25"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="1.999999761581421" y="3.5" z="0.5"/>
-	</wall>
-	<wall mid="1">
-		<position x="4.0" y="0.2500000596046448" z="-0.25"/>
+		<position x="4.0" y="2.25" z="-8.25"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="2.0" y="0.5" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="4.0" y="0.7500000596046448" z="-0.75"/>
+		<position x="4.0" y="1.75" z="-8.75"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2.0" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="4.0" y="1.25" z="-9.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2.0" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="4.0" y="0.75" z="-9.75"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2.0" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="-4.0" y="0.75" z="-9.75"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2.0" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="-4.0" y="1.25" z="-9.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2.0" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="-4.0" y="1.75" z="-8.75"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2.0" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="-4.0" y="2.25" z="-8.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2.0" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="-4" y="2.75" z="-6.75"/>
+		<rotation x="0" y="180" z="0"/>
+		<scale x="2" y="0.5" z="2.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="-4" y="2.75" z="-5.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="0" y="7.75" z="5.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="10" y="5.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="0.0" y="4.75" z="0"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="10.0" y="0.5" z="10"/>
+	</wall>
+	<wall mid="1">
+		<position x="0" y="4.75" z="-5.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="4.0" y="1.25" z="-5.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2" y="2.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="-4.0" y="1.25" z="-5.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2" y="2.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="4.0" y="0.25" z="-0.25"/>
+		<rotation x="0" y="0" z="0"/>
+		<scale x="2.0" y="0.5" z="0.5"/>
+	</wall>
+	<wall mid="1">
+		<position x="4.0" y="0.75" z="-0.75"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="2.0" y="0.5" z="0.5"/>
 	</wall>
@@ -161,17 +190,17 @@
 		<scale x="2.0" y="0.5" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="4.0" y="2.75" z="-3.750000238418579"/>
+		<position x="4.0" y="2.75" z="-3.75"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="2.0" y="0.5" z="2.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="-1.9371509552001953e-07" y="2.0" z="-5.250000953674316"/>
+		<position x="0" y="2.25" z="-5.25"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="6.000001430511475" y="5.0" z="0.5"/>
+		<scale x="6" y="4.5" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="-4.0" y="2.75" z="-3.750000238418579"/>
+		<position x="-4.0" y="2.75" z="-3.75"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="2.0" y="0.5" z="2.5"/>
 	</wall>
@@ -191,29 +220,34 @@
 		<scale x="2.0" y="0.5" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="-4.0" y="0.7500000596046448" z="-0.75"/>
+		<position x="-4.0" y="0.75" z="-0.75"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="2.0" y="0.5" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="-4.0" y="0.2500000596046448" z="-0.25"/>
+		<position x="-4.0" y="0.25" z="-0.25"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="2.0" y="0.5" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="-1.9371509552001953e-07" y="2.25" z="5.25"/>
+		<position x="0" y="2.25" z="5.25"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="11.00000286102295" y="5.5" z="0.5"/>
+		<scale x="10" y="4.5" z="0.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="-5.250000476837158" y="2.25" z="-0.25"/>
+		<position x="-5.25" y="2.25" z="-0.25"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="0.5" y="5.5" z="10.5"/>
+		<scale x="0.5" y="4.5" z="10.5"/>
 	</wall>
 	<wall mid="1">
-		<position x="5.250000476837158" y="2.25" z="-0.25"/>
-		<rotation x="0" y="0" z="0"/>
-		<scale x="0.5" y="5.5" z="10.5"/>
+		<position x="5.25" y="2.25" z="0"/>
+		<rotation x="0" y="180" z="0"/>
+		<scale x="0.5" y="4.5" z="10"/>
+	</wall>
+	<wall mid="1">
+		<position x="5.25" y="3.75" z="-5.25"/>
+		<rotation x="0" y="180" z="0"/>
+		<scale x="0.5" y="1.5" z="0.5"/>
 	</wall>
 	<wall mid="1">
 		<position x="0.0" y="-0.25" z="-0.0"/>
@@ -221,8 +255,8 @@
 		<scale x="10.0" y="0.5" z="10.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="0.0" y="0.25000011920928955" z="-10.5"/>
+		<position x="0.0" y="0.25" z="-10.5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="10.0" y="0.5000000596046448" z="10.0"/>
+		<scale x="10.0" y="0.5" z="10.0"/>
 	</wall>
 </map>
