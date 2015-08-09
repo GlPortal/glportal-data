@@ -1,0 +1,16 @@
+{
+	"video": {
+		"width": "auto",
+		"height": "auto",
+		"fullscreen": true,
+		"antialiasing": 1,
+		"vsync": true
+	},
+	"mouse": {
+		"sensitivity": 0.10,
+		"hide_portals_by_click": true
+	},
+	"sound": {
+		"enabled": true
+	}
+}
