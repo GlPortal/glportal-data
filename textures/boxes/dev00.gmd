@@ -1,0 +1,6 @@
+<mat name="boxes/dev00" fancyname="Dev box!">
+	<diffuse path="dev00.png"/>
+	<normal path="dev00n.png"/>
+	<scale u="1" v="1"/>
+	<kind>metal</kind>
+</mat>
