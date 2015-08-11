@@ -5,6 +5,7 @@
 uniform mat4 projectionMatrix;
 uniform mat4 viewMatrix;
 uniform mat4 modelMatrix;
+uniform mat4 invViewMatrix;
 uniform mat4 modelTrInv4Matrix;
 
 uniform vec2 tiling;
@@ -24,18 +25,22 @@ out vec3 pass_normal;
 out vec3 pass_tangent;
 out mat3 pass_surf2world;
 out vec4 pass_color;
+out vec3 pass_viewerPos;
+out vec3 pass_worldPos;
 
 void main() {
 	pass_position = position;
 	pass_texCoord = vec2(texCoord.x / tiling.x, texCoord.y / tiling.y);
 	pass_tangent = tangent;
 	pass_color = color;
+	pass_worldPos = (modelMatrix * vec4(position, 1)).xyz;
 
 	mat3 modelTrInv3Matrix = mat3(modelTrInv4Matrix);
 	pass_surf2world[0] = normalize(vec3(modelMatrix * vec4(tangent, 0.0)));
 	pass_surf2world[2] = normalize(modelTrInv3Matrix * normal);
 	pass_surf2world[1] = normalize(cross(pass_surf2world[2], pass_surf2world[0]));
 	pass_normal = modelTrInv3Matrix * normal;
+	pass_viewerPos = vec3(invViewMatrix * vec4(0.0, 0.0, 0.0, 1.0));
 
 	gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(position, 1);
 }
