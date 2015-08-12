@@ -1,4 +1,6 @@
-2015, gamecatt. Licensed under the Creative Commons Attribution-ShareAlike 2.0 https://creativecommons.org/licenses/by-sa/2.0/
+* gamecatt 2015
+
+Licensed under the Creative Commons Attribution-ShareAlike 2.0 https://creativecommons.org/licenses/by-sa/2.0/
 http://gamecatt.net/
 
 fem_fall.ogg
@@ -12,7 +14,8 @@ fem_panting_2.ogg
 fem_panting.ogg
 
 
-2015, Ali @ LookListen Sound Design.
+* Ali @ LookListen Sound Design 2015
+
 Licensed under Creative Commons Attribution Share-Alike (CC-BY-SA) v4.0
 http://creativecommons.org/licenses/by-sa/4.0/
 
