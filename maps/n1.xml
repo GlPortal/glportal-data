@@ -50,15 +50,15 @@
 
 	<!-- Back floor -->
 	<wall mid="2">
-		<position x="2.5" y="-3" z="5"/>
+		<position x="2.5" y="-2.5" z="5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="5.0" y="6.0" z="10.0"/>
+		<scale x="5.0" y="5.0" z="10.0"/>
 	</wall>
 	<!-- Front floor -->
 	<wall mid="2">
-		<position x="17.5" y="-3" z="5"/>
+		<position x="17.5" y="-2.5" z="5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="5.0" y="6.0" z="10.0"/>
+		<scale x="5.0" y="5.0" z="10.0"/>
 	</wall>
 	<!-- Ceiling -->
 	<wall mid="2">
@@ -100,9 +100,9 @@
 	</wall>
 	<!-- Floor -->
 	<wall mid="2">
-		<position x="22.5" y="-3" z="5"/>
+		<position x="22.5" y="-0.5" z="5"/>
 		<rotation x="0" y="0" z="0"/>
-		<scale x="5.0" y="6.0" z="4.0"/>
+		<scale x="5.0" y="1.0" z="4.0"/>
 	</wall>
 	<!-- Ceiling -->
 	<wall mid="2">
