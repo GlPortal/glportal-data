@@ -19,7 +19,7 @@
 	</end>
 
 	<!-- Main lights -->
-	<light x="4" y="30" z="5" r="1" g="0.95" b="0.9" distance="110" energy="1.3" />
+	<light x="4" y="30" z="5" r="1" g="0.95" b="0.9" distance="110" energy="1.3" specular="1" />
 	<light x="18" y="43" z="-22.5" r="1" g="0.95" b="0.9" distance="40" energy="1.4" specular="1" />
 
 	<light x="-20" y="30" z="-6" r="1" g="0.95" b="0.9" distance="20" energy="1.4" specular="1" />

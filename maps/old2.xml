@@ -21,9 +21,9 @@
 	<!-- Main light -->
 	<light x="5" y="7" z="0" r="1" g="0.95" b="0.9" distance="12" energy="2" />
 	<light x="10" y="7" z="0" r="1" g="0.95" b="0.9" distance="12" energy="2" />
-	<light x="16.5" y="7" z="4.8" r="0.5" g="0.5" b="1" distance="3" energy="4" specular="1" />
+	<light x="16.5" y="7" z="4.8" r="0.5" g="0.5" b="1" distance="3" energy="4" />
 
-	<light x="10" y="7.5" z="0" r="1" g="0.95" b="0.9" distance="30" energy="0.2" />
+	<light x="10" y="7.5" z="0" r="1" g="0.95" b="0.9" distance="30" energy="0.2" specular="1" />
 
 	<!-- Left floor -->
 	<wall mid="2">

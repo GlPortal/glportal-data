@@ -28,7 +28,7 @@
 	<!-- Lights somewhere around -->
 	<light x="9" y="4" z="8" r="1" g="0.95" b="0.9" distance="30" energy="0.2" specular="1" />
 	<light x="7" y="4" z="7" r="1" g="0.95" b="0.9" distance="30" energy="0.2" specular="1" />
-	<light x="12" y="7" z="15" r="1" g="0.95" b="0.9" distance="30" energy="0.1" />
+	<light x="12" y="7" z="15" r="1" g="0.95" b="0.9" distance="30" energy="0.1" specular="1" />
 
 	<!-- First Platform ( Spawn )-->
 	<wall mid="2">
