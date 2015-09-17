@@ -39,7 +39,7 @@ void main(void) {
 	float normalization = (gloss + 8) * 0.125;
 	vec3 diffuseColor = texture(diffuse, pass_texCoord).rgb;
 
-	vec3 refl = .3 * diffuseColor;
+	vec3 refl = .4 * diffuseColor;
 
 	for (int i = 0; i < numLights; ++i) {
 		// Calculate the vector from this pixels surface to the light source
@@ -52,16 +52,15 @@ void main(void) {
 			float fDiffuse = max(dot(normal, lightDir), 0);
 
 			// Specular reflection
-			vec3 halfDir = normalize(lightDir + viewDirection);
-
-			float fSpecular = normalization * pow(max(dot(halfDir, normal), 0), gloss) *
-			0.04 + 0.96*pow(1-dot(halfDir, lightDir), 5);
+			vec3 halfDir = normalize(lightDir + viewDirection);			
+			float fSpecular = normalization * pow(max(dot(halfDir, normal), 0), gloss)
+			* 0.1f + 0.9*pow(1-dot(halfDir, lightDir), 5);
 
 			refl += fAtt * (
-				(diffuseColor + vec3(fSpecular)) * fDiffuse * lights[i].energy * lights[i].color
+				fSpecular * fDiffuse * lights[i].energy * lights[i].color
 			);
 		}
 	}
 
-	out_Color = vec4(refl, 1.0);
+	out_Color = vec4(refl, 1);
 }
