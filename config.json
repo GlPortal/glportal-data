@@ -4,7 +4,8 @@
 		"height": "auto",
 		"fullscreen": true,
 		"antialiasing": 1,
-		"vsync": true
+		"vsync": true,
+		"recursive_portal": 3
 	},
 	"mouse": {
 		"sensitivity": 0.10,
