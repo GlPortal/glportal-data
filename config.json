@@ -3,8 +3,8 @@
 		"width": "auto",
 		"height": "auto",
 		"fullscreen": true,
-		"antialiasing": 0,
-		"vsync": false,
+		"antialiasing": 1,
+		"vsync": true,
 		"recursive_portal": 3
 	},
 	"mouse": {
