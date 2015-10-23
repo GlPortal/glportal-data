@@ -16,8 +16,7 @@ uniform sampler2D diffuse;
 uniform sampler2D normalMap;
 uniform sampler2D specularMap;
 uniform float shininess;
-uniform Light lights[64];
-uniform int numLights;
+uniform Light light;
 
 in vec3 pass_position;
 in vec2 pass_texCoord;
@@ -39,15 +38,14 @@ void main(void) {
 	float normalization = (gloss + 8) * 0.125;
 	vec3 diffuseColor = texture(diffuse, pass_texCoord).rgb;
 
-	vec3 refl = .3 * diffuseColor;
+	vec3 refl = vec3(0, 0, 0);//.3 * diffuseColor;
 
-	for (int i = 0; i < numLights; ++i) {
 		// Calculate the vector from this pixels surface to the light source
-		vec3 lightDist = lights[i].position - pass_worldPos;
+		vec3 lightDist = light.position - pass_worldPos;
 		float lightLength = length(lightDist);
-		if (lightLength < lights[i].distance) {
+		if (lightLength < light.distance) {
 			// Diffuse reflection + normal map
-			float fAtt = max(0, 1 - sqrt(lightLength / lights[i].distance));
+			float fAtt = max(0, 1 - sqrt(lightLength / light.distance));
 			vec3 lightDir = lightDist/lightLength;
 			float fDiffuse = max(dot(normal, lightDir), 0);
 
@@ -57,11 +55,10 @@ void main(void) {
 			float fSpecular = normalization * pow(max(dot(halfDir, normal), 0), gloss) *
 			0.04 + 0.96*pow(1-dot(halfDir, lightDir), 5);
 
-			refl += fAtt * (
-				(diffuseColor + vec3(fSpecular)) * fDiffuse * lights[i].energy * lights[i].color
-			);
+			//refl += fAtt * ((diffuseColor + vec3(fSpecular)) * fDiffuse * light.energy * light.color);
+			refl += diffuseColor * fDiffuse * light.color * light.energy * fAtt;
+			refl += texture(specularMap, pass_texCoord).rgb * fSpecular * light.color * fAtt;
 		}
-	}
 
 	out_Color = vec4(refl, 1.0);
 }
