@@ -100,7 +100,7 @@
 	<light b="0.9" distance="4.0" energy="5.0" g="0.95" r="1.0" x="10.0" y="7.5" z="5.0"/>
 	<end>
 		<position x="25.0" y="0.0" z="5.0"/>
-		<rotation x="0.0" y="90.0" z="270.0"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
 	</end>
 	<spawn>
 		<position x="2.5" y="1.0" z="5.0"/>
