@@ -5,28 +5,24 @@
 		<mat mid="2" name="metal/tiles00x3"/>
 	</materials>
 	<wall mid="2">
-		<position x="2.00122" y="5.97923" z="-0.505"/>
-		<scale x="3.94572" y="4.00954" z="1.0085"/>
+		<position x="2.0" y="6.0" z="-0.5"/>
+		<scale x="4.0" y="4.0" z="1.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="8.51311" y="-4.50408" z="2.50334"/>
-		<scale x="1.00208" y="1.00208" z="3.00278"/>
+		<position x="8.5" y="-4.5" z="2.5"/>
+		<scale x="1.0" y="1.0" z="3.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="7.51116" y="-3.50213" z="2.50334"/>
-		<scale x="1.00208" y="1.00208" z="3.00278"/>
+		<position x="7.5" y="-3.5" z="2.5"/>
+		<scale x="1.0" y="1.0" z="3.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="6.50335" y="-2.50018" z="2.50334"/>
-		<scale x="1.00208" y="1.00208" z="3.00278"/>
+		<position x="6.5" y="-2.5" z="2.5"/>
+		<scale x="1.0" y="1.0" z="3.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="5.49995" y="-1.49678" z="2.50334"/>
-		<scale x="1.00208" y="1.00208" z="3.00278"/>
-	</wall>
-	<wall mid="2">
-		<position x="5.49995" y="-1.49678" z="2.50334"/>
-		<scale x="1.00208" y="1.00208" z="3.00278"/>
+		<position x="5.5" y="-1.5" z="2.5"/>
+		<scale x="1.0" y="1.0" z="3.0"/>
 	</wall>
 	<wall mid="2">
 		<position x="10.0" y="-5.5" z="5.0"/>
@@ -38,7 +34,7 @@
 	</wall>
 	<wall mid="2">
 		<position x="22.75" y="4.5" z="5.0"/>
-		<rotation x="0.0" y="180.00001" z="179.99999"/>
+		<rotation x="0.0" y="0.0" z="180"/>
 		<scale x="4.5" y="1.0" z="4.0"/>
 	</wall>
 	<wall mid="2">
@@ -82,12 +78,12 @@
 		<scale x="20.0" y="13.0" z="1.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="12.00264" y="1.5" z="-0.5"/>
-		<scale x="16.03024" y="13.0" z="1.0"/>
+		<position x="12.0" y="1.5" z="-0.5"/>
+		<scale x="16.0" y="13.0" z="1.0"/>
 	</wall>
 	<wall mid="1">
-		<position x="2.00121" y="2.00011" z="-0.49487"/>
-		<scale x="3.94572" y="3.95041" z="1.0085"/>
+		<position x="2.0" y="2.0" z="-0.5"/>
+		<scale x="4.0" y="4.0" z="1.0"/>
 	</wall>
 	<wall mid="1">
 		<position x="20.25" y="6.0" z="5.0"/>
