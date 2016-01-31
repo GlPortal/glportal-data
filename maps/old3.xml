@@ -6,13 +6,21 @@
 		<mat mid="3" name="fluid/acid00"/>
 		<mat mid="4" name="door/door"/>
 	</materials>
+	<trigger type="death">
+		<position x="12.75" y="-2.45" z="7.5"/>
+		<scale x="9.5" y="2.1" z="20.0"/>
+	</trigger>
+	<acid>
+		<position x="12.75" y="-2.5" z="7.5"/>
+		<scale x="9.5" y="2.0" z="20.0"/>
+	</acid>
 	<wall mid="1">
 		<position x="-3.0" y="-2.5" z="7.5"/>
 		<scale x="1.0" y="2.0" z="20.0"/>
 	</wall>
 	<wall mid="1">
 		<position x="7.5" y="-2.5" z="-3.0"/>
-		<scale x="22.0" y="2.0" z="1.0"/>
+		<scale x="20.0" y="2.0" z="1.0"/>
 	</wall>
 	<spawn>
 		<position x="0.0" y="1.0" z="0.0"/>
@@ -49,12 +57,12 @@
 		<scale x="3.0" y="1.0" z="3.0"/>
 	</wall>
 	<acid>
-		<position x="7.5" y="-2.5" z="7.5"/>
-		<scale x="20.0" y="2.0" z="20.0"/>
+		<position x="2.25" y="-2.5" z="7.5"/>
+		<scale x="9.5" y="2.0" z="20.0"/>
 	</acid>
 	<trigger type="death">
-		<position x="7.5" y="-2.45" z="7.5"/>
-		<scale x="20.0" y="2.1" z="20.0"/>
+		<position x="2.25" y="-2.45" z="7.5"/>
+		<scale x="9.5" y="2.1" z="20.0"/>
 	</trigger>
 	<wall mid="1">
 		<position x="7.5" y="8.0" z="7.5"/>
@@ -117,16 +125,16 @@
 		<scale x="2.0" y="1.0" z="1.0"/>
 	</wall>
 	<wall mid="1">
-		<position x="7.5" y="2.5" z="5.0"/>
-		<scale x="1.0" y="8.0" z="15.0"/>
+		<position x="7.5" y="1.5" z="5.0"/>
+		<scale x="1.0" y="10.0" z="15.0"/>
 	</wall>
 	<wall mid="1">
-		<position x="7.5" y="1.0" z="15.0"/>
-		<scale x="1.0" y="5.0" z="5.0"/>
+		<position x="7.5" y="0.0" z="15.0"/>
+		<scale x="1.0" y="7.0" z="5.0"/>
 	</wall>
 	<wall mid="1">
 		<position x="7.5" y="-2.5" z="18.0"/>
-		<scale x="22.0" y="2.0" z="1.0"/>
+		<scale x="20.0" y="2.0" z="1.0"/>
 	</wall>
 	<wall mid="1">
 		<position x="18.0" y="-2.5" z="7.5"/>
