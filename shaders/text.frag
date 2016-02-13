@@ -12,7 +12,7 @@ out vec4 out_Color;
 
 void main() {
 	float smoothing = 0.1;// / (4 * 0.01);
-	float mask = texture2D(diffuse, pass_texCoord).a;
+	float mask = texture(diffuse, pass_texCoord).a;
         vec4 resultingColor = color;
 
 	if(mask < 0.5) {
