@@ -2,8 +2,9 @@
 <map>
 	<materials>
 		<mat mid="1" name="metal/tiles00x3"/>
-		<mat mid="2" name="concrete/wall00"/>
-		<mat mid="3" name="door/door"/>
+		<mat mid="2" name="crate/crate"/>
+		<mat mid="3" name="concrete/wall00"/>
+		<mat mid="4" name="door/door"/>
 	</materials>
 	<wall mid="1">
 		<position x="24.6389" y="17.5" z="5.0"/>
@@ -42,7 +43,7 @@
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="7.0" y="1.0" z="5.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="3">
 		<position x="16.7778" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="7.0"/>
@@ -111,7 +112,7 @@
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="22.0" y="5.3966" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="3">
 		<position x="10.031" y="6.762" z="-5.0664"/>
 		<rotation x="180.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="4.0" z="3.9177"/>
@@ -120,5 +121,25 @@
 		<position x="11.1371" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="7.2816" z="7.0"/>
+	</wall>
+	<object mesh="Cube.obj" mid="2">
+		<position x="8.1093" y="5.0281" z="2.1529"/>
+		<rotation x="0.0" y="7.7389" z="0.0"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</object>
+	<object mesh="Cube.obj" mid="2">
+		<position x="8.2056" y="5.0281" z="3.28"/>
+		<rotation x="0.0" y="351.2534" z="0.0"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</object>
+	<wall mid="1">
+		<position x="8.2056" y="5.0281" z="3.28"/>
+		<rotation x="0.0" y="351.2534" z="0.0"/>
+		<scale x="0.771" y="0.771" z="0.771"/>
+	</wall>
+	<wall mid="1">
+		<position x="8.1093" y="5.0281" z="2.1529"/>
+		<rotation x="0.0" y="7.7389" z="0.0"/>
+		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
 </map>
