@@ -1,0 +1,6 @@
+<mat name="crate/crate" fancyname="Crate">
+	<diffuse path="crate.png"/>
+	<normal path="craten.png"/>
+	<scale u="1" v="1"/>
+	<kind>metal</kind>
+</mat>
