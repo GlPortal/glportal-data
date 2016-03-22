@@ -1,81 +1,81 @@
 <?xml version="1.0" ?>
 <map>
 	<materials>
-		<mat mid="1" name="concrete/wall00"/>
-		<mat mid="2" name="metal/tiles00x3"/>
+		<mat mid="1" name="metal/tiles00x3"/>
+		<mat mid="2" name="concrete/wall00"/>
 		<mat mid="3" name="door/door"/>
 	</materials>
-	<wall mid="2">
-		<position x="18.5" y="17.5" z="5.0"/>
-		<scale x="22.0" y="1.0" z="7.0"/>
+	<wall mid="1">
+		<position x="24.6389" y="17.5" z="5.0"/>
+		<scale x="11.7222" y="1.0" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="30.0" y="13.0" z="5.0"/>
 		<scale x="1.0" y="8.0" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="18.5" y="13.0" z="9.0"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="18.5" y="13.0" z="1.0"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="21.5" y="8.5" z="5.0"/>
 		<scale x="18.0" y="1.0" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="10.5" y="2.0" z="9.0"/>
 		<scale x="6.0" y="14.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="13.0" y="1.5" z="5.0"/>
 		<scale x="1.0" y="13.0" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="7.0" y="-2.5" z="5.0"/>
 		<scale x="1.0" y="5.0" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="10.0" y="4.0281" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="7.0" y="1.0" z="5.0"/>
 	</wall>
-	<wall mid="1">
-		<position x="15.0191" y="16.4811" z="5.0"/>
+	<wall mid="2">
+		<position x="16.7778" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="7.0" y="14.6453" z="5.0"/>
 		<scale x="1.0" y="7.7774" z="3.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="7.0" y="6.5" z="2.5"/>
 		<scale x="1.0" y="21.06" z="2.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="7.0" y="6.5" z="7.5"/>
 		<scale x="1.0" y="21.06" z="2.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="5.0" y="11.3019" z="5.0"/>
 		<scale x="3.0" y="1.0" z="3.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="3.0" y="8.8019" z="5.0"/>
 		<scale x="1.0" y="4.0" z="3.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="5.0" y="8.8057" z="3.0"/>
 		<scale x="3.0" y="4.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="5.0" y="8.8019" z="7.0"/>
 		<scale x="3.0" y="4.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="5.0" y="6.3019" z="5.0"/>
 		<scale x="3.0" y="1.0" z="3.0"/>
 	</wall>
@@ -92,28 +92,33 @@
 		<position x="4.0" y="7.8057" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
-	<wall mid="2">
-		<position x="10.031" y="3.7631" z="-2.0664"/>
+	<wall mid="1">
+		<position x="10.031" y="3.7631" z="-2.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="1">
 		<position x="7.0" y="2.9051" z="5.0"/>
 		<scale x="1.0" y="7.7774" z="3.0"/>
 	</wall>
-	<wall mid="2">
-		<position x="12.5899" y="7.2477" z="-9.5391"/>
+	<wall mid="1">
+		<position x="12.531" y="6.2947" z="-9.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
-		<scale x="22.0" y="8.0" z="1.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="7.4885" y="7.2703" z="-9.5845"/>
-		<rotation x="0.0" y="90.0" z="0.0"/>
-		<scale x="22.0" y="8.0" z="1.0"/>
+		<scale x="22.0" y="5.3966" z="1.0"/>
 	</wall>
 	<wall mid="1">
-		<position x="10.0191" y="7.7359" z="-5.0305"/>
+		<position x="7.531" y="6.3301" z="-9.5209"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="22.0" y="5.3966" z="1.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="10.031" y="6.6241" z="-5.0664"/>
 		<rotation x="270.0" y="90.0" z="0.0"/>
-		<scale x="1.0" y="4.0" z="7.0"/>
+		<scale x="1.0" y="4.0" z="4.722"/>
+	</wall>
+	<wall mid="1">
+		<position x="11.1371" y="17.5" z="5.0"/>
+		<rotation x="0.0" y="0.0" z="90.0"/>
+		<scale x="1.0" y="7.2816" z="7.0"/>
 	</wall>
 </map>
