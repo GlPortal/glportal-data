@@ -2,9 +2,10 @@
 <map>
 	<materials>
 		<mat mid="1" name="metal/tiles00x3"/>
-		<mat mid="2" name="crate/crate"/>
-		<mat mid="3" name="concrete/wall00"/>
-		<mat mid="4" name="door/door"/>
+		<mat mid="2" name="models/light-fixture"/>
+		<mat mid="3" name="crate/crate"/>
+		<mat mid="4" name="concrete/wall00"/>
+		<mat mid="5" name="door/door"/>
 	</materials>
 	<wall mid="1">
 		<position x="24.6389" y="17.5" z="5.0"/>
@@ -43,7 +44,7 @@
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="7.0" y="1.0" z="5.0"/>
 	</wall>
-	<wall mid="3">
+	<wall mid="4">
 		<position x="16.7778" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="7.0"/>
@@ -80,13 +81,9 @@
 		<position x="5.0" y="6.3019" z="5.0"/>
 		<scale x="3.0" y="1.0" z="3.0"/>
 	</wall>
-	<light b="0.9" distance="60.0" energy="0.2" g="0.95" r="1.0" specular="1" x="20.0" y="15.0" z="5.0"/>
-	<light b="0.9" distance="7.0" energy="2.0" g="0.95" r="1.0" x="11.0" y="14.0" z="5.0"/>
-	<light b="0.9" distance="12.0" energy="3.0" g="0.95" r="1.0" specular="1" x="11.0" y="3.0" z="5.0"/>
-	<light b="0.9" distance="13.0" energy="3.5" g="0.95" r="1.0" x="20.0" y="16.0" z="5.0"/>
-	<light b="1.0" distance="4.0" energy="5.0" g="0.5" r="0.5" x="29.0" y="12.5" z="5.0"/>
+	<light b="0.9" distance="7.0" energy="2.0" g="0.95" r="1.0" x="11.0" y="14.9801" z="5.0"/>
 	<end>
-		<position x="29.5" y="9.0" z="5.0"/>
+		<position x="29.5" y="9.0" z="6.005"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 	</end>
 	<spawn>
@@ -103,31 +100,31 @@
 		<scale x="1.0" y="7.7774" z="3.0"/>
 	</wall>
 	<wall mid="1">
-		<position x="12.531" y="6.2947" z="-9.5"/>
+		<position x="12.531" y="6.0" z="-3.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
-		<scale x="22.0" y="5.3966" z="1.0"/>
+		<scale x="10.0" y="6.0" z="1.0"/>
 	</wall>
 	<wall mid="1">
-		<position x="7.531" y="6.3301" z="-9.5209"/>
+		<position x="7.531" y="6.0" z="-3.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
-		<scale x="22.0" y="5.3966" z="1.0"/>
+		<scale x="10.0" y="6.0" z="1.0"/>
 	</wall>
-	<wall mid="3">
+	<wall mid="4">
 		<position x="10.031" y="6.762" z="-5.0664"/>
 		<rotation x="180.0" y="90.0" z="0.0"/>
-		<scale x="1.0" y="4.0" z="3.9177"/>
+		<scale x="1.0" y="5.0" z="4.0"/>
 	</wall>
 	<wall mid="1">
 		<position x="11.1371" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="7.2816" z="7.0"/>
 	</wall>
-	<object mesh="Cube.obj" mid="2">
+	<object mesh="Cube.obj" mid="3">
 		<position x="8.1093" y="5.0281" z="2.1529"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
 	</object>
-	<object mesh="Cube.obj" mid="2">
+	<object mesh="Cube.obj" mid="3">
 		<position x="8.2056" y="5.0281" z="3.28"/>
 		<rotation x="0.0" y="351.2534" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
@@ -141,5 +138,25 @@
 		<position x="8.1093" y="5.0281" z="2.1529"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
+	</wall>
+	<object mesh="light-fixture.obj" mid="2">
+		<position x="11.0163" y="16.9543" z="5.0"/>
+		<scale x="2.0" y="0.0914" z="0.3006"/>
+	</object>
+	<object mesh="light-fixture.obj" mid="2">
+		<position x="26.5524" y="16.9129" z="5.0"/>
+		<scale x="2.0" y="0.0914" z="0.3006"/>
+	</object>
+	<light b="0.9" distance="7.0" energy="2.0" g="0.95" r="1.0" x="26.5361" y="14.9387" z="5.0"/>
+	<object mesh="light-fixture.obj" mid="2">
+		<position x="10.0859" y="8.9654" z="-2.0271"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="2.0" y="0.0914" z="0.3006"/>
+	</object>
+	<light b="0.9" distance="7.0" energy="2.0" g="0.95" r="1.0" x="10.0822" y="6.9912" z="-2.043"/>
+	<wall mid="1">
+		<position x="10.0" y="9.5" z="-2.5"/>
+		<rotation x="0.0" y="0.0" z="90.0"/>
+		<scale x="1.0" y="4.0" z="6.0"/>
 	</wall>
 </map>
