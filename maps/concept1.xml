@@ -1,87 +1,88 @@
 <?xml version="1.0" ?>
 <map>
 	<materials>
-		<mat mid="1" name="metal/tiles00x3"/>
-		<mat mid="2" name="models/light-fixture"/>
-		<mat mid="3" name="crate/crate"/>
-		<mat mid="4" name="concrete/wall00"/>
-		<mat mid="5" name="door/door"/>
+		<mat mid="1" name="models/sign1"/>
+		<mat mid="2" name="metal/tiles00x3"/>
+		<mat mid="3" name="models/light-fixture"/>
+		<mat mid="4" name="crate/crate"/>
+		<mat mid="5" name="concrete/wall00"/>
+		<mat mid="6" name="door/door"/>
 	</materials>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="24.6389" y="17.5" z="5.0"/>
 		<scale x="11.7222" y="1.0" z="7.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="30.0" y="13.0" z="5.0"/>
 		<scale x="1.0" y="8.0" z="7.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="18.5" y="13.0" z="9.0"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="18.5" y="13.0" z="1.0"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="21.5" y="8.5" z="5.0"/>
 		<scale x="18.0" y="1.0" z="7.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="10.5" y="2.0" z="9.0"/>
 		<scale x="6.0" y="14.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="13.0" y="1.5" z="5.0"/>
 		<scale x="1.0" y="13.0" z="7.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="7.0" y="-2.5" z="5.0"/>
 		<scale x="1.0" y="5.0" z="7.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="10.0" y="4.0281" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="7.0" y="1.0" z="5.0"/>
 	</wall>
-	<wall mid="4">
+	<wall mid="5">
 		<position x="16.7778" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="7.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="7.0" y="14.6453" z="5.0"/>
 		<scale x="1.0" y="7.7774" z="3.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="7.0" y="6.5" z="2.5"/>
 		<scale x="1.0" y="21.06" z="2.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="7.0" y="6.5" z="7.5"/>
 		<scale x="1.0" y="21.06" z="2.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="5.0" y="11.3019" z="5.0"/>
 		<scale x="3.0" y="1.0" z="3.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="3.0" y="8.8019" z="5.0"/>
 		<scale x="1.0" y="4.0" z="3.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="5.0" y="8.8057" z="3.0"/>
 		<scale x="3.0" y="4.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="5.0" y="8.8019" z="7.0"/>
 		<scale x="3.0" y="4.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="5.0" y="6.3019" z="5.0"/>
 		<scale x="3.0" y="1.0" z="3.0"/>
 	</wall>
-	<light b="0.9" distance="7.0" energy="2.0" g="0.95" r="1.0" x="11.0" y="14.9801" z="5.0"/>
+	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="11.0" y="14.9801" z="5.0"/>
 	<end>
 		<position x="29.5" y="9.0" z="6.005"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
@@ -90,73 +91,78 @@
 		<position x="4.0" y="7.8057" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="10.031" y="3.7631" z="-2.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="7.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="7.0" y="2.9051" z="5.0"/>
 		<scale x="1.0" y="7.7774" z="3.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="12.531" y="6.0" z="-3.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="10.0" y="6.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="7.531" y="6.0" z="-3.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="10.0" y="6.0" z="1.0"/>
 	</wall>
-	<wall mid="4">
+	<wall mid="5">
 		<position x="10.031" y="6.762" z="-5.0664"/>
 		<rotation x="180.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="5.0" z="4.0"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="11.1371" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="7.2816" z="7.0"/>
 	</wall>
-	<object mesh="Cube.obj" mid="3">
+	<object mesh="Cube.obj" mid="4">
 		<position x="8.1093" y="5.0281" z="2.1529"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
 	</object>
-	<object mesh="Cube.obj" mid="3">
+	<object mesh="Cube.obj" mid="4">
 		<position x="8.2056" y="5.0281" z="3.28"/>
 		<rotation x="0.0" y="351.2534" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
 	</object>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="8.2056" y="5.0281" z="3.28"/>
 		<rotation x="0.0" y="351.2534" z="0.0"/>
 		<scale x="0.771" y="0.771" z="0.771"/>
 	</wall>
-	<wall mid="1">
+	<wall mid="2">
 		<position x="8.1093" y="5.0281" z="2.1529"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="light-fixture.obj" mid="2">
+	<object mesh="light-fixture.obj" mid="3">
 		<position x="11.0163" y="16.9543" z="5.0"/>
 		<scale x="2.0" y="0.0914" z="0.3006"/>
 	</object>
-	<object mesh="light-fixture.obj" mid="2">
+	<object mesh="light-fixture.obj" mid="3">
 		<position x="26.5524" y="16.9129" z="5.0"/>
 		<scale x="2.0" y="0.0914" z="0.3006"/>
 	</object>
-	<light b="0.9" distance="7.0" energy="2.0" g="0.95" r="1.0" x="26.5361" y="14.9387" z="5.0"/>
-	<object mesh="light-fixture.obj" mid="2">
+	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="26.5361" y="14.9387" z="5.0"/>
+	<object mesh="light-fixture.obj" mid="3">
 		<position x="10.0859" y="8.9654" z="-2.0271"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="2.0" y="0.0914" z="0.3006"/>
 	</object>
-	<light b="0.9" distance="7.0" energy="2.0" g="0.95" r="1.0" x="10.0822" y="6.9912" z="-2.043"/>
-	<wall mid="1">
+	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="10.0822" y="6.9912" z="-2.043"/>
+	<wall mid="2">
 		<position x="10.0" y="9.5" z="-2.5"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="6.0"/>
 	</wall>
+	<object mesh="sign.obj" mid="1">
+		<position x="12.3645" y="6.7364" z="3.5112"/>
+		<rotation x="180.0" y="0.0" z="91.0"/>
+		<scale x="2.0" y="0.0" z="2.0"/>
+	</object>
 </map>
