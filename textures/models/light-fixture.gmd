@@ -1,0 +1,7 @@
+<mat name="models/light-fixture" fancyname="light fixture">
+	<diffuse path="light-fixture.jpg"/>
+	<surface portalable="false"/>
+	<scale u="1" v="1"/>
+	<kind>fixture</kind>
+	<tags>fixture</tags>
+</mat>
