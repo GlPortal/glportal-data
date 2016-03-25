@@ -1,0 +1,10 @@
+<mat name="models/barrel" fancyname="Barrel">
+	<diffuse path="barrel.png"/>
+	<specular path="barrels.png" shininess="256"/>
+	<normal path="barreln.png"/>
+	<surface portalable="false"/>
+	<scale u="1" v="1"/>
+	<kind>models</kind>
+	<tags>models</tags>
+	<tiles scale="3"/>
+</mat>
