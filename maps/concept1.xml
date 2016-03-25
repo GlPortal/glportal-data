@@ -34,7 +34,7 @@
 		<scale x="6.0" y="14.0" z="1.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="13.0" y="1.5" z="5.0"/>
+		<position x="12.531" y="1.5" z="5.0"/>
 		<scale x="1.0" y="13.0" z="8.0"/>
 	</wall>
 	<wall mid="5">
@@ -52,12 +52,12 @@
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
 	<wall mid="2">
-		<position x="12.531" y="6.0" z="-3.5"/>
+		<position x="12.531" y="7.0" z="-3.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="9.0" y="6.0" z="1.0"/>
 	</wall>
 	<wall mid="5">
-		<position x="10.031" y="6.762" z="-5.0664"/>
+		<position x="10.031" y="6.5" z="-5.0664"/>
 		<rotation x="180.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="5.0" z="4.0"/>
 	</wall>
@@ -107,7 +107,7 @@
 		<scale x="1.0" y="4.0" z="6.0"/>
 	</wall>
 	<object mesh="sign.obj" mid="1">
-		<position x="12.3645" y="6.7364" z="3.5112"/>
+		<position x="11.8591" y="6.7364" z="3.5112"/>
 		<rotation x="180.0" y="0.0" z="91.0"/>
 		<scale x="2.0" y="0.0" z="2.0"/>
 	</object>
