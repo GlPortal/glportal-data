@@ -7,80 +7,40 @@
 		<mat mid="4" name="crate/crate"/>
 		<mat mid="5" name="concrete/wall00"/>
 		<mat mid="6" name="door/door"/>
+		<mat mid="7" name="models/barrel"/>
 	</materials>
 	<wall mid="2">
-		<position x="24.6389" y="17.5" z="5.0"/>
-		<scale x="11.7222" y="1.0" z="7.0"/>
+		<position x="24.531" y="17.5" z="5.0"/>
+		<scale x="11.0" y="1.0" z="8.0"/>
 	</wall>
 	<wall mid="2">
 		<position x="30.0" y="13.0" z="5.0"/>
-		<scale x="1.0" y="8.0" z="7.0"/>
+		<scale x="1.0" y="8.0" z="8.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="18.5" y="13.0" z="9.0"/>
+		<position x="19.031" y="13.0" z="9.5"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="18.5" y="13.0" z="1.0"/>
+		<position x="19.031" y="13.0" z="0.5"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="21.5" y="8.5" z="5.0"/>
-		<scale x="18.0" y="1.0" z="7.0"/>
+		<position x="21.031" y="8.5" z="5.0"/>
+		<scale x="18.0" y="1.0" z="8.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="10.5" y="2.0" z="9.0"/>
+		<position x="11.031" y="2.0" z="9.5231"/>
 		<scale x="6.0" y="14.0" z="1.0"/>
 	</wall>
 	<wall mid="2">
 		<position x="13.0" y="1.5" z="5.0"/>
-		<scale x="1.0" y="13.0" z="7.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="7.0" y="-2.5" z="5.0"/>
-		<scale x="1.0" y="5.0" z="7.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="10.0" y="4.0281" z="5.0"/>
-		<rotation x="0.0" y="90.0" z="0.0"/>
-		<scale x="7.0" y="1.0" z="5.0"/>
+		<scale x="1.0" y="13.0" z="8.0"/>
 	</wall>
 	<wall mid="5">
-		<position x="16.7778" y="17.5" z="5.0"/>
+		<position x="17.031" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
-		<scale x="1.0" y="4.0" z="7.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="7.0" y="14.6453" z="5.0"/>
-		<scale x="1.0" y="7.7774" z="3.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="7.0" y="6.5" z="2.5"/>
-		<scale x="1.0" y="21.06" z="2.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="7.0" y="6.5" z="7.5"/>
-		<scale x="1.0" y="21.06" z="2.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="5.0" y="11.3019" z="5.0"/>
-		<scale x="3.0" y="1.0" z="3.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="3.0" y="8.8019" z="5.0"/>
-		<scale x="1.0" y="4.0" z="3.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="5.0" y="8.8057" z="3.0"/>
-		<scale x="3.0" y="4.0" z="1.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="5.0" y="8.8019" z="7.0"/>
-		<scale x="3.0" y="4.0" z="1.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="5.0" y="6.3019" z="5.0"/>
-		<scale x="3.0" y="1.0" z="3.0"/>
+		<scale x="1.0" y="4.0" z="8.0"/>
 	</wall>
 	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="11.0" y="14.9801" z="5.0"/>
 	<end>
@@ -88,27 +48,13 @@
 		<rotation x="0.0" y="90.0" z="0.0"/>
 	</end>
 	<spawn>
-		<position x="4.0" y="7.8057" z="5.0"/>
+		<position x="-9.4754" y="12.6373" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
 	<wall mid="2">
-		<position x="10.031" y="3.7631" z="-2.0"/>
-		<rotation x="0.0" y="0.0" z="90.0"/>
-		<scale x="1.0" y="4.0" z="7.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="7.0" y="2.9051" z="5.0"/>
-		<scale x="1.0" y="7.7774" z="3.0"/>
-	</wall>
-	<wall mid="2">
 		<position x="12.531" y="6.0" z="-3.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
-		<scale x="10.0" y="6.0" z="1.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="7.531" y="6.0" z="-3.5"/>
-		<rotation x="0.0" y="90.0" z="0.0"/>
-		<scale x="10.0" y="6.0" z="1.0"/>
+		<scale x="9.0" y="6.0" z="1.0"/>
 	</wall>
 	<wall mid="5">
 		<position x="10.031" y="6.762" z="-5.0664"/>
@@ -116,27 +62,27 @@
 		<scale x="1.0" y="5.0" z="4.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="11.1371" y="17.5" z="5.0"/>
+		<position x="11.531" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
-		<scale x="1.0" y="7.2816" z="7.0"/>
+		<scale x="1.0" y="7.0" z="8.0"/>
 	</wall>
 	<object mesh="Cube.obj" mid="4">
-		<position x="8.1093" y="5.0281" z="2.1529"/>
+		<position x="8.1093" y="4.5" z="2.1529"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
 	</object>
 	<object mesh="Cube.obj" mid="4">
-		<position x="8.2056" y="5.0281" z="3.28"/>
+		<position x="8.2056" y="4.5" z="3.28"/>
 		<rotation x="0.0" y="351.2534" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
 	</object>
 	<wall mid="2">
-		<position x="8.2056" y="5.0281" z="3.28"/>
+		<position x="8.2056" y="4.5" z="3.28"/>
 		<rotation x="0.0" y="351.2534" z="0.0"/>
 		<scale x="0.771" y="0.771" z="0.771"/>
 	</wall>
 	<wall mid="2">
-		<position x="8.1093" y="5.0281" z="2.1529"/>
+		<position x="8.1093" y="4.5" z="2.1529"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
@@ -156,7 +102,7 @@
 	</object>
 	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="10.0822" y="6.9912" z="-2.043"/>
 	<wall mid="2">
-		<position x="10.0" y="9.5" z="-2.5"/>
+		<position x="10.031" y="9.5" z="-3.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="6.0"/>
 	</wall>
@@ -165,4 +111,100 @@
 		<rotation x="180.0" y="0.0" z="91.0"/>
 		<scale x="2.0" y="0.0" z="2.0"/>
 	</object>
+	<object mesh="barrel.obj" mid="7">
+		<position x="29.1413" y="8.9752" z="1.5598"/>
+		<scale x="0.6592" y="1.0081" z="0.6427"/>
+	</object>
+	<wall mid="2">
+		<position x="29.1514" y="9.4934" z="1.5286"/>
+		<scale x="0.4" y="0.7991" z="0.4"/>
+	</wall>
+	<wall mid="2">
+		<position x="40.5067" y="-33.5" z="5.0"/>
+		<scale x="1.0" y="170.0" z="50.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="-10.4933" y="-33.5" z="5.0"/>
+		<scale x="1.0" y="170.0" z="50.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="15.0" y="-33.5" z="30.5"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="1.0" y="170.0" z="50.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="15.0" y="-33.5" z="-20.5"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="1.0" y="170.0" z="50.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="5.0" y="-55.6773" z="5.0"/>
+		<scale x="3.0" y="1.0" z="3.0"/>
+	</wall>
+	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="7.13" y="37.9141" z="1.3994"/>
+	<wall mid="5">
+		<position x="15.0" y="-128.8336" z="-20.5"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="1.0" y="20.6671" z="50.0"/>
+	</wall>
+	<wall mid="5">
+		<position x="15.0" y="-128.8336" z="30.5"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="1.0" y="20.6671" z="50.0"/>
+	</wall>
+	<wall mid="5">
+		<position x="-10.4933" y="-128.5" z="5.0"/>
+		<scale x="1.0" y="20.0" z="50.0"/>
+	</wall>
+	<wall mid="5">
+		<position x="40.5067" y="-128.8336" z="5.0"/>
+		<scale x="1.0" y="20.6671" z="50.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="15.0" y="3.0" z="5.0"/>
+		<scale x="50.0" y="2.0" z="50.0"/>
+	</wall>
+	<object mesh="barrel.obj" mid="7">
+		<position x="27.8918" y="9.3368" z="2.3267"/>
+		<rotation x="359.9964" y="27.268" z="90.1228"/>
+		<scale x="0.6592" y="1.0081" z="0.6427"/>
+	</object>
+	<wall mid="2">
+		<position x="27.4402" y="9.3481" z="2.5555"/>
+		<rotation x="0.0" y="207.3208" z="270.4543"/>
+		<scale x="0.4" y="0.7991" z="0.4"/>
+	</wall>
+	<wall mid="2">
+		<position x="-11.9079" y="8.5043" z="4.9582"/>
+		<scale x="11.7222" y="1.0" z="7.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="15.0" y="52.5" z="5.0"/>
+		<scale x="50.0" y="2.0" z="50.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="7.531" y="12.0" z="14.0231"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="10.0" y="16.0" z="1.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="7.531" y="12.0" z="-4.0028"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="10.0" y="16.0" z="1.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="7.531" y="18.5" z="4.9972"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="8.0" y="3.0" z="1.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="23.9462" y="12.0" z="-8.5"/>
+		<rotation x="0.0" y="180.0" z="0.0"/>
+		<scale x="31.8303" y="16.0" z="1.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="23.9462" y="12.0" z="18.4375"/>
+		<rotation x="0.0" y="180.0" z="0.0"/>
+		<scale x="31.8303" y="16.0" z="1.0"/>
+	</wall>
 </map>
