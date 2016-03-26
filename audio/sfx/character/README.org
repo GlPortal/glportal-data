@@ -14,9 +14,8 @@ fem_panting_2.ogg
 fem_panting.ogg
 
 
-* Ali @ LookListen Sound Design 2015
-
-Licensed under Creative Commons Attribution Share-Alike (CC-BY-SA) v4.0
+* Serban Matei 2016
+Licensed under Creative Commons Attribution 4.0 International License
 http://creativecommons.org/licenses/by-sa/4.0/
 
 fem_foot_1.ogg
