@@ -3,26 +3,15 @@
 	<materials>
 		<mat mid="1" name="concrete/wall00"/>
 		<mat mid="2" name="metal/tiles00x3"/>
+		<mat mid="3" name="door/door"/>
 	</materials>
 	<wall mid="2">
 		<position x="2.0" y="6.0" z="-0.5"/>
 		<scale x="4.0" y="4.0" z="1.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="8.5" y="-4.5" z="2.5"/>
-		<scale x="1.0" y="1.0" z="3.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="7.5" y="-3.5" z="2.5"/>
-		<scale x="1.0" y="1.0" z="3.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="6.5" y="-2.5" z="2.5"/>
-		<scale x="1.0" y="1.0" z="3.0"/>
-	</wall>
-	<wall mid="2">
-		<position x="5.5" y="-1.5" z="2.5"/>
-		<scale x="1.0" y="1.0" z="3.0"/>
+		<position x="5.125" y="-0.125" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
 	<wall mid="2">
 		<position x="10.0" y="-5.5" z="5.0"/>
@@ -34,7 +23,7 @@
 	</wall>
 	<wall mid="2">
 		<position x="22.75" y="4.5" z="5.0"/>
-		<rotation x="0.0" y="0.0" z="180"/>
+		<rotation x="0.0" y="0.0" z="180.0"/>
 		<scale x="4.5" y="1.0" z="4.0"/>
 	</wall>
 	<wall mid="2">
@@ -102,4 +91,80 @@
 		<position x="2.5" y="1.0" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
+	<wall mid="2">
+		<position x="5.375" y="-0.3671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="5.625" y="-0.6171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="5.875" y="-0.8671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="6.875" y="-1.8591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="6.625" y="-1.6091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="6.375" y="-1.3591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="6.125" y="-1.1171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="7.125" y="-2.1091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="7.375" y="-2.3512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="7.625" y="-2.6012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="7.875" y="-2.8512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="8.875" y="-3.8432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="8.625" y="-3.5932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="8.375" y="-3.3432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="8.125" y="-3.1012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="9.125" y="-4.0932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="9.375" y="-4.3353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="9.625" y="-4.5853" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="9.875" y="-4.8353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
 </map>
