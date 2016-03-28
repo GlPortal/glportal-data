@@ -335,4 +335,16 @@
 		<position x="-51.3484" y="8.0" z="5.0"/>
 		<scale x="23.0668" y="2.0" z="50.0"/>
 	</wall>
+	<wall mid="5">
+		<position x="-30.5151" y="11.0" z="-16.0"/>
+		<scale x="1.0" y="4.0" z="8.0"/>
+	</wall>
+	<wall mid="5">
+		<position x="-30.5151" y="11.0" z="-16.0"/>
+		<scale x="1.0" y="4.0" z="8.0"/>
+	</wall>
+	<wall mid="5">
+		<position x="-43.5692" y="11.0" z="-16.0"/>
+		<scale x="1.0" y="4.0" z="8.0"/>
+	</wall>
 </map>
