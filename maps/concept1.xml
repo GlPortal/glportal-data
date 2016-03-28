@@ -48,7 +48,7 @@
 		<rotation x="0.0" y="90.0" z="0.0"/>
 	</end>
 	<spawn>
-		<position x="-9.4754" y="12.6373" z="5.0"/>
+		<position x="-52.9619" y="12.6373" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
 	<wall mid="2">
@@ -125,7 +125,7 @@
 	</wall>
 	<wall mid="2">
 		<position x="-10.4933" y="-33.5" z="5.0"/>
-		<scale x="1.0" y="170.0" z="50.0"/>
+		<scale x="1.0" y="85.0" z="50.0"/>
 	</wall>
 	<wall mid="2">
 		<position x="15.0" y="-33.5" z="30.5"/>
@@ -208,119 +208,131 @@
 		<scale x="31.8303" y="16.0" z="1.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-5.75" y="8.25" z="4.9582"/>
+		<position x="-5.75" y="8.25" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-5.251" y="7.75" z="4.9582"/>
+		<position x="-5.251" y="7.75" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-4.7373" y="7.2431" z="4.9582"/>
+		<position x="-4.751" y="7.2431" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-4.2304" y="6.7362" z="4.9582"/>
+		<position x="-4.2609" y="6.7362" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-3.737" y="6.2428" z="4.9582"/>
+		<position x="-3.7609" y="6.2428" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-3.2301" y="5.7291" z="4.9582"/>
+		<position x="-3.2609" y="5.7291" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-2.7367" y="5.2289" z="4.9582"/>
+		<position x="-2.7635" y="5.2289" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-2.2366" y="4.722" z="4.9582"/>
+		<position x="-2.2635" y="4.722" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-1.7485" y="4.25" z="4.9582"/>
+		<position x="-1.7635" y="4.25" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-5.875" y="8.8716" z="4.9582"/>
+		<position x="-5.875" y="8.8716" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-5.625" y="8.625" z="4.9582"/>
+		<position x="-5.625" y="8.625" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-5.126" y="8.125" z="4.9582"/>
+		<position x="-5.126" y="8.125" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-5.376" y="8.3716" z="4.9582"/>
+		<position x="-5.376" y="8.3716" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-4.8776" y="7.8647" z="4.9582"/>
+		<position x="-4.8776" y="7.8647" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-4.6276" y="7.6181" z="4.9582"/>
+		<position x="-4.6276" y="7.6181" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-3.1385" y="6.1041" z="4.9582"/>
+		<position x="-3.1385" y="6.1041" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-3.3885" y="6.3507" z="4.9582"/>
+		<position x="-3.3885" y="6.3507" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-3.8869" y="6.8576" z="4.9582"/>
+		<position x="-3.8869" y="6.8576" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-3.6369" y="6.611" z="4.9582"/>
+		<position x="-3.6369" y="6.611" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-4.1359" y="7.111" z="4.9582"/>
+		<position x="-4.1359" y="7.111" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-4.3859" y="7.3576" z="4.9582"/>
+		<position x="-4.3859" y="7.3576" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-2.8708" y="5.8396" z="4.9582"/>
+		<position x="-2.8708" y="5.8396" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-2.6208" y="5.593" z="4.9582"/>
+		<position x="-2.6208" y="5.593" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-2.1218" y="5.093" z="4.9582"/>
+		<position x="-2.1218" y="5.093" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-2.3718" y="5.3396" z="4.9582"/>
+		<position x="-2.3718" y="5.3396" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-1.8735" y="4.8327" z="4.9582"/>
+		<position x="-1.8885" y="4.8327" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-1.6235" y="4.5861" z="4.9582"/>
+		<position x="-1.6235" y="4.5861" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-1.1044" y="4.125" z="4.9582"/>
+		<position x="-1.1044" y="4.125" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
 	<wall mid="2">
-		<position x="-1.3544" y="4.3716" z="4.9582"/>
+		<position x="-1.3544" y="4.3716" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="-10.5" y="31.5" z="5.0"/>
+		<scale x="1.0" y="41.0" z="50.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="-22.5334" y="8.0" z="5.0"/>
+		<scale x="23.0668" y="2.0" z="50.0"/>
+	</wall>
+	<wall mid="2">
+		<position x="-51.3484" y="8.0" z="5.0"/>
+		<scale x="23.0668" y="2.0" z="50.0"/>
 	</wall>
 </map>
