@@ -1,0 +1,7 @@
+<mat name="wood/wood" fancyname="Wood">
+	<diffuse path="wood.jpg"/>
+	<surface portalable="true"/>
+	<scale u="1" v="1"/>
+	<kind>wood</kind>
+	<tags>wood</tags>
+</mat>
