@@ -1,0 +1,7 @@
+<mat name="models/sign2" fancyname="sign 2">
+	<diffuse path="sign2.png"/>
+	<surface portalable="false"/>
+	<scale u="1" v="1"/>
+	<kind>fixture</kind>
+	<tags>fixture</tags>
+</mat>

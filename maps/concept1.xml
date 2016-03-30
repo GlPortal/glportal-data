@@ -10,6 +10,7 @@
 		<mat mid="7" name="models/barrel"/>
 		<mat mid="8" name="wood/wood"/>
 		<mat mid="9" name="models/tank"/>
+		<mat mid="10" name="models/sign2"/>
 	</materials>
 	<wall mid="2">
 		<position x="24.531" y="17.5" z="5.0"/>
@@ -570,4 +571,9 @@
 		<rotation x="0.2286" y="359.2127" z="359.8968"/>
 		<scale x="1.6677" y="1.2242" z="4.736"/>
 	</wall>
+	<object mesh="sign.obj" mid="10">
+		<position x="-34.3442" y="4.9947" z="3.4788"/>
+		<rotation x="180.0" y="0.0" z="91.0"/>
+		<scale x="2.0" y="0.0" z="2.0"/>
+	</object>
 </map>
