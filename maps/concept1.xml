@@ -9,6 +9,7 @@
 		<mat mid="6" name="door/door"/>
 		<mat mid="7" name="models/barrel"/>
 		<mat mid="8" name="wood/wood"/>
+		<mat mid="9" name="models/tank"/>
 	</materials>
 	<wall mid="2">
 		<position x="24.531" y="17.5" z="5.0"/>
@@ -558,5 +559,15 @@
 		<position x="-38.1921" y="5.6373" z="-16.6053"/>
 		<rotation x="0.0" y="0.0" z="26.634"/>
 		<scale x="0.1" y="8.0" z="0.1"/>
+	</wall>
+	<object mesh="tank.obj" mid="9">
+		<position x="-12.1713" y="10.0457" z="25.5759"/>
+		<rotation x="0.0" y="88.5058" z="0.0"/>
+		<scale x="5.3733" y="2.0457" z="2.0915"/>
+	</object>
+	<wall mid="2">
+		<position x="-12.1445" y="9.9453" z="25.5407"/>
+		<rotation x="0.2286" y="359.2127" z="359.8968"/>
+		<scale x="1.6677" y="1.2242" z="4.736"/>
 	</wall>
 </map>

@@ -1,0 +1,10 @@
+<mat name="models/tank" fancyname="Tank">
+	<diffuse path="tank.png"/>
+	<specular path="tanks.jpg" shininess="256"/>
+	<normal path="tankn.jpg"/>
+	<surface portalable="false"/>
+	<scale u="1" v="1"/>
+	<kind>models</kind>
+	<tags>models</tags>
+	<tiles scale="3"/>
+</mat>
