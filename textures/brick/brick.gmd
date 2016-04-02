@@ -1,0 +1,6 @@
+<mat name="brick/brick" fancyname="Brick Wall">
+	<diffuse path="brick.png"/>
+	<scale u="1" v="1"/>
+	<kind>brick</kind>
+	<tags>brick,wall</tags>
+</mat>

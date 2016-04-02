@@ -1,0 +1,7 @@
+<mat name="concrete/concrete" fancyname="Concrete">
+	<diffuse path="concrete.png"/>
+	<normal path="concreten.png"/>
+	<scale u="1" v="1"/>
+	<kind>concrete</kind>
+	<tags>concrete</tags>
+</mat>
