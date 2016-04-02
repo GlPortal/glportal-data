@@ -14,6 +14,7 @@
 		<mat mid="11" name="models/paper1"/>
 		<mat mid="12" name="models/paper2"/>
 		<mat mid="13" name="brick/brick"/>
+		<mat mid="14" name="concrete/concrete"/>
 	</materials>
 	<wall mid="2">
 		<position x="24.531" y="17.5" z="5.0"/>
@@ -333,32 +334,33 @@
 		<position x="-10.5" y="31.5" z="5.0"/>
 		<scale x="1.0" y="41.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="14">
 		<position x="-22.5" y="8.0" z="5.0"/>
 		<scale x="23.0" y="2.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="14">
 		<position x="-51.5" y="8.0" z="5.0"/>
 		<scale x="23.0" y="2.0" z="50.0"/>
 	</wall>
 	<wall mid="5">
-		<position x="-11.9041" y="11.0" z="-13.0776"/>
-		<scale x="1.0" y="4.0" z="8.0"/>
+		<position x="-16.9041" y="11.0" z="-18.5"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="1.0" y="4.0" z="4.0"/>
 	</wall>
 	<wall mid="5">
 		<position x="-61.4912" y="10.0" z="11.0"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="1.0" y="2.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="14">
 		<position x="-40.5" y="4.5" z="5.0"/>
 		<scale x="1.0" y="5.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="14">
 		<position x="-33.5" y="4.5" z="5.0"/>
 		<scale x="1.0" y="5.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="14">
 		<position x="-36.9992" y="1.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="270.0"/>
 		<scale x="1.0" y="8.0" z="50.0"/>
@@ -371,12 +373,12 @@
 		<position x="19.031" y="13.0" z="0.5"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="14">
 		<position x="-36.9966" y="5.5" z="-19.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="7.0" z="6.0"/>
 	</wall>
-	<wall mid="2">
+	<wall mid="14">
 		<position x="-36.9966" y="5.5" z="29.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="7.0" z="6.0"/>
@@ -976,4 +978,5 @@
 		<rotation x="359.9998" y="96.2767" z="266.9872"/>
 		<scale x="0.297" y="0.0012" z="0.21"/>
 	</object>
+	<light b="0.9" distance="200.0" energy="1.0" g="0.95" r="1.0" x="-41.9147" y="97.5084" z="8.0822"/>
 </map>
