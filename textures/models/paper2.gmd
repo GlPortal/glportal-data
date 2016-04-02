@@ -1,0 +1,7 @@
+<mat name="models/paper2" fancyname="paper 2">
+	<diffuse path="paper2.png"/>
+	<surface portalable="false"/>
+	<scale u="1" v="1"/>
+	<kind>model</kind>
+	<tags>model</tags>
+</mat>
