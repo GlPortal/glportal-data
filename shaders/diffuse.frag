@@ -1,9 +1,10 @@
 #version 130
+#extension GL_ARB_uniform_buffer_object : enable
 
 struct Light {
 	vec3 position;
-	vec3 color;
 	float distance;
+	vec3 color;
 	float energy;
 	float specular;
 };
@@ -15,16 +16,21 @@ uniform mat4 invViewMatrix;
 uniform sampler2D diffuse;
 uniform sampler2D normalMap;
 uniform sampler2D specularMap;
-uniform float shininess;
+#if defined(GL_ARB_uniform_buffer_object) && !defined(RADIX_DISABLE_GL_UBO)
+uniform lightsUB {
+  Light lights[64];
+};
+#else
 uniform Light lights[64];
+#endif
 uniform int numLights;
 
 in vec3 pass_position;
 in vec2 pass_texCoord;
 in vec3 pass_normal;
 in vec3 pass_tangent;
-in mat3 pass_surf2world;
-in vec3 pass_viewerPos;
+invariant in vec3 pass_viewerPos;
+invariant in mat3 pass_surf2world;
 in vec3 pass_worldPos;
 
 out vec4 out_Color;
