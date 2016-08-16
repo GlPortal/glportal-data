@@ -11,7 +11,7 @@ struct Light {
 
 uniform mat4 modelMatrix;
 uniform mat4 viewMatrix;
-uniform mat4 invViewMatrix;
+//uniform mat4 invViewMatrix;
 
 uniform sampler2D diffuse;
 uniform sampler2D normalMap;
