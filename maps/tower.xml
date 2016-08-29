@@ -2,8 +2,8 @@
 <map>
 	<!-- Materials definition -->
 	<materials>
-		<mat mid="1" name="concrete/wall00"/>
-		<mat mid="2" name="metal/tiles00x3"/>
+		<material id="1" name="concrete/wall00"/>
+		<material id="2" name="metal/tiles00x3"/>
 	</materials>
 
 	<!-- Set up start position - Start chamber -->
@@ -19,12 +19,28 @@
 	</end>
 
 	<!-- Main lights -->
-	<light x="4" y="30" z="5" r="1" g="0.95" b="0.9" distance="110" energy="1.3" specular="1" />
-	<light x="18" y="43" z="-22.5" r="1" g="0.95" b="0.9" distance="40" energy="1.4" specular="1" />
+	<light distance="110" energy="1.3" specular="1">
+		<position x="4" y="30" z="5"/>
+		<color r="1" g="0.95" b="0.9"/>
+	</light>
 
-	<light x="-20" y="30" z="-6" r="1" g="0.95" b="0.9" distance="20" energy="1.4" specular="1" />
+	<light distance="40" energy="1.4" specular="1">
+		<position x="18" y="43" z="-22.5"/>
+		<color r="1" g="0.95" b="0.9"/>
+	</light>
+
+
+	<light distance="20" energy="1.4" specular="1">
+		<position x="-20" y="30" z="-6"/>
+		<color r="1" g="0.95" b="0.9"/>
+	</light>
+
 	<!-- Start chamber -->
-	<light x="-10" y="-5" z="10" r="1" g="0.95" b="0.9" distance="20" energy="0.4" specular="1" />
+	<light distance="20" energy="0.4" specular="1">
+		<position x="-10" y="-5" z="10"/>
+		<color r="1" g="0.95" b="0.9"/>
+	</light>
+
 
 <!--
 	x = distance from center
@@ -34,7 +50,7 @@
 	BACK
 	tower
 -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-7" y="-35" z="1.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="6" y="130" z="5"/>
@@ -43,49 +59,49 @@
 
 	<!-- Start chamber -->
 	<!-- Floor -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-17.5" y="-55" z="10"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="27" y="90" z="12"/>
 	</wall>
 
 	<!-- Ceiling -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-17.5" y="13" z="10"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="27" y="34" z="12"/>
 	</wall>
 
 	<!-- Path -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-2" y="-55" z="-4"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="4" y="90" z="22"/>
 	</wall>
 
 	<!-- Back wall -->
-	<wall mid="1">
+	<wall material="1">
 		<position x="-30.5" y="-7" z="10"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="6" z="10"/>
 	</wall>
 
 	<!-- Front wall -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-4.5" y="-7" z="11"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="6" z="8"/>
 	</wall>
 
 	<!-- Right wall -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-17.5" y="-7" z="15.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="27" y="6" z="1"/>
 	</wall>
 
 	<!-- Left wall -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-17.5" y="-7" z="4.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="27" y="6" z="1"/>
@@ -93,67 +109,71 @@
 
 
 	<!-- South balcony -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-12" y="20.5" z="1.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="4" y="1" z="5"/>
 	</wall>
 
 	<!-- South balcony white paint -->
-	<wall mid="1">
+	<wall material="1">
 		<position x="-10.5" y="23" z="2"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="4" z="4"/>
 	</wall>
 
 	<!-- South balcony - Right frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-10.5" y="23" z="-0.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="4" z="1"/>
 	</wall>
 
 	<!-- South balcony - Top frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-10.5" y="25.5" z="1.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="1" z="5"/>
 	</wall>
 
 	<!-- South balcony - End Light -->
-	<light x="-12.5" y="24" z="3.5" r="0.5" g="0.5" b="1" distance="3" energy="3" />
+	<light distance="3" energy="3">
+		<position x="-12.5" y="24" z="3.5"/>
+		<color r="0.5" g="0.5" b="1"/>
+	</light>
+
 
 
 	<!-- Lower frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.5" y="0.5" z="2"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="1" z="6"/>
 	</wall>
 
 	<!-- Middle -->
-	<wall mid="1">
+	<wall material="1">
 		<position x="-3.5" y="3" z="2"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="4" z="4"/>
 	</wall>
 
 	<!-- Top frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.5" y="5.5" z="2"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="1" z="6"/>
 	</wall>
 
 	<!-- Left frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.5" y="3" z="-0.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="4" z="1"/>
 	</wall>
 
 	<!-- Right frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.5" y="3" z="4.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="4" z="1"/>
@@ -168,28 +188,28 @@
 	RIGHT
 	Tower
 -->
-	<wall mid="1">
+	<wall material="1">
 		<position x="22.5" y="-44" z="22.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="15" y="112" z="15"/>
 	</wall>
 
 	<!-- Ceiling -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="22.5" y="12.5" z="22.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="17" y="1" z="15"/>
 	</wall>
 
 	<!-- Frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="14.5" y="-44" z="22.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="112" z="15"/>
 	</wall>
 
 	<!-- Frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="30.5" y="-44" z="22.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="112" z="15"/>
@@ -200,49 +220,49 @@
 	Left
 	Tower
 -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="5" y="0" z="-10"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="10" y="200" z="10"/>
 	</wall>
 
 	<!-- Small portal wall on tower -->
-	<wall mid="1">
+	<wall material="1">
 		<position x="10.5" y="32.5" z="-10"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="5" z="4"/>
 	</wall>
 
 	<!-- Top frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="10.5" y="35.5" z="-10"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="1" z="4"/>
 	</wall>
 
 	<!-- Left frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="10.5" y="33" z="-7.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="6" z="1"/>
 	</wall>
 
 	<!-- Right frame -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="10.5" y="33" z="-13.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="6" z="3"/>
 	</wall>
 
 	<!-- North balcony -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="12.5" y="29.5" z="-11"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="5" y="1" z="8"/>
 	</wall>
 
 	<!-- East balcony -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="5" y="30.5" z="-17"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="10" y="1" z="4"/>
@@ -250,7 +270,7 @@
 
 
 	<!-- Jump and run platform -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="0" y="-35" z="-22.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="60" y="130" z="1"/>
@@ -264,21 +284,21 @@
 
 	Floor
 -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="10" y="-50" z="4.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="20" y="100" z="11"/>
 	</wall>
 
 	<!-- Front -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="10.5" y="4" z="4.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="1" y="8" z="11"/>
 	</wall>
 
 	<!-- Ceiling -->
-	<wall mid="2">
+	<wall material="2">
 		<position x="10.5" y="9" z="4.5"/>
 		<rotation x="0" y="0" z="0"/>
 		<scale x="5" y="2" z="11"/>

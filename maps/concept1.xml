@@ -1,55 +1,59 @@
 <?xml version="1.0" ?>
 <map>
 	<materials>
-		<mat mid="1" name="models/sign1"/>
-		<mat mid="2" name="metal/tiles00x3"/>
-		<mat mid="3" name="models/light-fixture"/>
-		<mat mid="4" name="crate/crate"/>
-		<mat mid="5" name="concrete/wall00"/>
-		<mat mid="6" name="door/door"/>
-		<mat mid="7" name="models/barrel"/>
-		<mat mid="8" name="wood/wood"/>
-		<mat mid="9" name="models/tank"/>
-		<mat mid="10" name="models/sign2"/>
-		<mat mid="11" name="models/paper1"/>
-		<mat mid="12" name="models/paper2"/>
-		<mat mid="13" name="brick/brick"/>
-		<mat mid="14" name="concrete/concrete"/>
+		<material id="1" name="models/sign1"/>
+		<material id="2" name="metal/tiles00x3"/>
+		<material id="3" name="models/light-fixture"/>
+		<material id="4" name="crate/crate"/>
+		<material id="5" name="concrete/wall00"/>
+		<material id="6" name="door/door"/>
+		<material id="7" name="models/barrel"/>
+		<material id="8" name="wood/wood"/>
+		<material id="9" name="models/tank"/>
+		<material id="10" name="models/sign2"/>
+		<material id="11" name="models/paper1"/>
+		<material id="12" name="models/paper2"/>
+		<material id="13" name="brick/brick"/>
+		<material id="14" name="concrete/concrete"/>
 	</materials>
-	<wall mid="2">
+	<wall material="2">
 		<position x="24.531" y="17.5" z="5.0"/>
 		<scale x="11.0" y="1.0" z="8.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="30.0" y="13.0" z="5.0"/>
 		<scale x="1.0" y="8.0" z="8.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="19.031" y="13.0" z="9.5"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="19.031" y="13.0" z="0.5"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="21.031" y="8.5" z="5.0"/>
 		<scale x="18.0" y="1.0" z="8.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="11.031" y="2.0" z="9.5231"/>
 		<scale x="6.0" y="14.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="12.531" y="1.5" z="5.0"/>
 		<scale x="1.0" y="13.0" z="8.0"/>
 	</wall>
-	<wall mid="5">
+	<wall material="5">
 		<position x="17.031" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="8.0"/>
 	</wall>
-	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="11.0" y="14.9801" z="5.0"/>
+	<light distance="30.0" energy="1.0">
+		<position x="11.0" y="14.9801" z="5.0"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
 	<end>
 		<position x="29.5" y="9.0" z="6.005"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
@@ -58,925 +62,945 @@
 		<position x="-52.9619" y="12.6373" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
-	<wall mid="2">
+	<wall material="2">
 		<position x="12.531" y="7.0" z="-3.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="9.0" y="6.0" z="1.0"/>
 	</wall>
-	<wall mid="5">
+	<wall material="5">
 		<position x="10.031" y="6.5" z="-5.0664"/>
 		<rotation x="180.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="5.0" z="4.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="11.531" y="17.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="7.0" z="8.0"/>
 	</wall>
-	<object mesh="Cube.obj" mid="4">
+	<model mesh="Cube.obj" material="4">
 		<position x="8.1093" y="4.5" z="2.1529"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="8.2056" y="4.5" z="3.28"/>
 		<rotation x="0.0" y="351.2534" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="8.2056" y="4.5" z="3.28"/>
 		<rotation x="0.0" y="351.2534" z="0.0"/>
 		<scale x="0.771" y="0.771" z="0.771"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="8.1093" y="4.5" z="2.1529"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="light-fixture.obj" mid="3">
+	<model mesh="light-fixture.obj" material="3">
 		<position x="11.0163" y="16.9543" z="5.0"/>
 		<scale x="2.0" y="0.0914" z="0.3006"/>
-	</object>
-	<object mesh="light-fixture.obj" mid="3">
+</model>
+	<model mesh="light-fixture.obj" material="3">
 		<position x="26.5524" y="16.9129" z="5.0"/>
 		<scale x="2.0" y="0.0914" z="0.3006"/>
-	</object>
-	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="26.5361" y="14.9387" z="5.0"/>
-	<object mesh="light-fixture.obj" mid="3">
+</model>
+	<light distance="30.0" energy="1.0">
+		<position x="26.5361" y="14.9387" z="5.0"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
+	<model mesh="light-fixture.obj" material="3">
 		<position x="10.0859" y="8.9654" z="-2.0271"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="2.0" y="0.0914" z="0.3006"/>
-	</object>
-	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="10.0822" y="6.9912" z="-2.043"/>
-	<wall mid="2">
+</model>
+	<light distance="30.0" energy="1.0">
+		<position x="10.0822" y="6.9912" z="-2.043"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
+	<wall material="2">
 		<position x="10.031" y="9.5" z="-3.0"/>
 		<rotation x="0.0" y="0.0" z="90.0"/>
 		<scale x="1.0" y="4.0" z="6.0"/>
 	</wall>
-	<object mesh="sign.obj" mid="1">
+	<model mesh="sign.obj" material="1">
 		<position x="11.8591" y="6.7364" z="3.5112"/>
 		<rotation x="180.0" y="0.0" z="91.0"/>
 		<scale x="2.0" y="0.0" z="2.0"/>
-	</object>
-	<object mesh="barrel.obj" mid="7">
+</model>
+	<model mesh="barrel.obj" material="7">
 		<position x="29.1413" y="8.9752" z="1.5598"/>
 		<scale x="0.6592" y="1.0081" z="0.6427"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="29.1514" y="9.4934" z="1.5286"/>
 		<scale x="0.4" y="0.7991" z="0.4"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="40.5067" y="-33.5" z="5.0"/>
 		<scale x="1.0" y="170.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-10.4933" y="-33.5" z="5.0"/>
 		<scale x="1.0" y="85.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="15.0" y="-33.5" z="30.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="170.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="15.0" y="-33.5" z="-20.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="170.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="5.0" y="-55.6773" z="5.0"/>
 		<scale x="3.0" y="1.0" z="3.0"/>
 	</wall>
-	<light b="0.9" distance="30.0" energy="1.0" g="0.95" r="1.0" x="7.13" y="37.9141" z="1.3994"/>
-	<wall mid="5">
+	<light distance="30.0" energy="1.0">
+		<position x="7.13" y="37.9141" z="1.3994"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
+	<wall material="5">
 		<position x="15.0" y="-128.8336" z="-20.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="20.6671" z="50.0"/>
 	</wall>
-	<wall mid="5">
+	<wall material="5">
 		<position x="15.0" y="-128.8336" z="30.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="20.6671" z="50.0"/>
 	</wall>
-	<wall mid="5">
+	<wall material="5">
 		<position x="-10.4933" y="-128.5" z="5.0"/>
 		<scale x="1.0" y="20.0" z="50.0"/>
 	</wall>
-	<wall mid="5">
+	<wall material="5">
 		<position x="40.5067" y="-128.8336" z="5.0"/>
 		<scale x="1.0" y="20.6671" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="15.0" y="3.0" z="5.0"/>
 		<scale x="50.0" y="2.0" z="50.0"/>
 	</wall>
-	<object mesh="barrel.obj" mid="7">
+	<model mesh="barrel.obj" material="7">
 		<position x="27.8918" y="9.3368" z="2.3267"/>
 		<rotation x="359.9964" y="27.268" z="90.1228"/>
 		<scale x="0.6592" y="1.0081" z="0.6427"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="27.4402" y="9.3481" z="2.5555"/>
 		<rotation x="0.0" y="207.3208" z="270.4543"/>
 		<scale x="0.4" y="0.7991" z="0.4"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-8.0" y="8.5" z="5.0"/>
 		<scale x="4.0" y="1.0" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="15.0" y="52.5" z="5.0"/>
 		<scale x="50.0" y="2.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="7.531" y="12.0" z="14.0231"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="10.0" y="16.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="7.531" y="12.0" z="-4.0028"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="10.0" y="16.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="7.531" y="18.5" z="4.9972"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="8.0" y="3.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="23.9462" y="12.0" z="-8.5"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="31.8303" y="16.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="23.9462" y="12.0" z="18.4375"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="31.8303" y="16.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-5.75" y="8.25" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-5.251" y="7.75" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-4.751" y="7.2431" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-4.2609" y="6.7362" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.7609" y="6.2428" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.2609" y="5.7291" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-2.7635" y="5.2289" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-2.2635" y="4.722" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-1.7635" y="4.25" z="5.0"/>
 		<scale x="0.5" y="0.5" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-5.875" y="8.8716" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-5.625" y="8.625" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-5.126" y="8.125" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-5.376" y="8.3716" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-4.8776" y="7.8647" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-4.6276" y="7.6181" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.1385" y="6.1041" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.3885" y="6.3507" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.8869" y="6.8576" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-3.6369" y="6.611" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-4.1359" y="7.111" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-4.3859" y="7.3576" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-2.8708" y="5.8396" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-2.6208" y="5.593" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-2.1218" y="5.093" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-2.3718" y="5.3396" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-1.8885" y="4.8327" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-1.6235" y="4.5861" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-1.1044" y="4.125" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-1.3544" y="4.3716" z="5.0"/>
 		<scale x="0.25" y="0.25" z="7.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-10.5" y="31.5" z="5.0"/>
 		<scale x="1.0" y="41.0" z="50.0"/>
 	</wall>
-	<wall mid="14">
+	<wall material="14">
 		<position x="-22.5" y="8.0" z="5.0"/>
 		<scale x="23.0" y="2.0" z="50.0"/>
 	</wall>
-	<wall mid="14">
+	<wall material="14">
 		<position x="-51.5" y="8.0" z="5.0"/>
 		<scale x="23.0" y="2.0" z="50.0"/>
 	</wall>
-	<wall mid="5">
+	<wall material="5">
 		<position x="-16.9041" y="11.0" z="-18.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="4.0" z="4.0"/>
 	</wall>
-	<wall mid="5">
+	<wall material="5">
 		<position x="-61.4912" y="10.0" z="11.0"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="1.0" y="2.0" z="1.0"/>
 	</wall>
-	<wall mid="14">
+	<wall material="14">
 		<position x="-40.5" y="4.5" z="5.0"/>
 		<scale x="1.0" y="5.0" z="50.0"/>
 	</wall>
-	<wall mid="14">
+	<wall material="14">
 		<position x="-33.5" y="4.5" z="5.0"/>
 		<scale x="1.0" y="5.0" z="50.0"/>
 	</wall>
-	<wall mid="14">
+	<wall material="14">
 		<position x="-36.9992" y="1.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="270.0"/>
 		<scale x="1.0" y="8.0" z="50.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-62.4912" y="10.5" z="5.0"/>
 		<scale x="1.0" y="3.0" z="50.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="19.031" y="13.0" z="0.5"/>
 		<scale x="22.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="14">
+	<wall material="14">
 		<position x="-36.9966" y="5.5" z="-19.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="7.0" z="6.0"/>
 	</wall>
-	<wall mid="14">
+	<wall material="14">
 		<position x="-36.9966" y="5.5" z="29.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="7.0" z="6.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-36.5" y="10.5" z="29.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="3.0" z="51.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-36.5" y="10.5" z="-19.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="3.0" z="51.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-10.5" y="10.0" z="-9.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="21.0" y="2.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-10.5" y="10.0" z="19.5"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="21.0" y="2.0" z="1.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-36.4474" y="2.05" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-36.5476" y="2.2504" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-36.7455" y="2.6538" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-36.6452" y="2.4534" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-36.8482" y="2.8516" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-36.9484" y="3.052" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.2465" y="3.6533" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.0486" y="3.2499" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.1488" y="3.4503" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.3467" y="3.8537" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.4495" y="4.0515" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.5497" y="4.2519" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.7521" y="6.6517" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.6519" y="6.4513" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.4489" y="6.053" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.5491" y="6.2534" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.3513" y="5.8501" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.2511" y="5.6496" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.1509" y="5.4518" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.0507" y="5.2514" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.8477" y="4.8532" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.9479" y="5.0536" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.7501" y="4.6502" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-37.6499" y="4.4498" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.8431" y="6.8485" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.9433" y="7.0489" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.1411" y="7.4523" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.0409" y="7.2519" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.2439" y="7.6501" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.3441" y="7.8505" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.4443" y="8.0484" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.5445" y="8.2488" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.7423" y="8.6522" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.6421" y="8.4518" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.8451" y="8.85" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-39.9453" y="9.0504" z="-15.5553"/>
 		<scale x="0.5" y="0.1" z="2.0"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.2434" y="5.6373" z="-14.5053"/>
 		<rotation x="0.0" y="0.0" z="26.634"/>
 		<scale x="0.1" y="8.0" z="0.1"/>
 	</wall>
-	<wall mid="8">
+	<wall material="8">
 		<position x="-38.1921" y="5.6373" z="-16.6053"/>
 		<rotation x="0.0" y="0.0" z="26.634"/>
 		<scale x="0.1" y="8.0" z="0.1"/>
 	</wall>
-	<object mesh="tank.obj" mid="9">
+	<model mesh="tank.obj" material="9">
 		<position x="-12.1713" y="10.0457" z="25.5759"/>
 		<rotation x="0.0" y="88.5058" z="0.0"/>
 		<scale x="5.3733" y="2.0457" z="2.0915"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="-12.1445" y="9.9453" z="25.5407"/>
 		<rotation x="0.2286" y="359.2127" z="359.8968"/>
 		<scale x="1.6677" y="1.2242" z="4.736"/>
 	</wall>
-	<object mesh="sign.obj" mid="10">
+	<model mesh="sign.obj" material="10">
 		<position x="-34.3442" y="4.9947" z="3.4788"/>
 		<rotation x="180.0" y="0.0" z="91.0"/>
 		<scale x="2.0" y="0.0" z="2.0"/>
-	</object>
-	<light b="0.0" distance="29.32" energy="1.0" g="0.0034" r="1.0" x="-35.1735" y="7.6392" z="3.3474"/>
-	<wall mid="13">
+</model>
+	<light distance="29.32" energy="1.0">
+		<position x="-35.1735" y="7.6392" z="3.3474"/>
+		<color r="1.0" g="0.0034" b="0.0"/>
+	</light>
+
+	<wall material="13">
 		<position x="-49.5" y="10.5" z="19.5"/>
 		<scale x="1.0" y="3.0" z="19.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-49.5" y="10.5" z="-9.5"/>
 		<scale x="1.0" y="3.0" z="19.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-52.4912" y="10.5" z="10.25"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="4.9825"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-59.5" y="10.5" z="10.25"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="4.9825"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-59.5" y="10.5" z="-0.25"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="4.9825"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-52.4912" y="10.5" z="-0.25"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="4.9825"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-58.5088" y="10.5" z="12.75"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="3.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-57.2588" y="10.5" z="11.5"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-59.4912" y="10.5" z="15.3314"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-85.1045" y="8.9945" z="17.3587"/>
 		<scale x="8.7377" y="37.4447" z="8.7377"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-32.9263" y="3.2081" z="55.8961"/>
 		<scale x="12.0363" y="26.8141" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-71.2429" y="14.8428" z="54.7665"/>
 		<scale x="12.0363" y="38.876" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-86.7634" y="20.9457" z="36.4453"/>
 		<scale x="12.0363" y="49.4439" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-90.3088" y="8.0741" z="-30.0903"/>
 		<scale x="12.0363" y="48.564" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-36.7796" y="9.0153" z="-55.0302"/>
 		<scale x="63.6996" y="32.52" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="10.9059" y="7.2259" z="-53.9723"/>
 		<scale x="12.0363" y="50.1169" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="7.2998" y="1.1602" z="66.8902"/>
 		<scale x="12.0363" y="72.6308" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-88.0217" y="9.3174" z="-46.7823"/>
 		<scale x="12.0363" y="53.7161" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-52.7515" y="3.0006" z="55.2137"/>
 		<scale x="12.0363" y="26.8141" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-14.6104" y="12.15" z="56.4823"/>
 		<scale x="12.0363" y="26.8141" z="12.0363"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-85.9205" y="19.4808" z="1.6023"/>
 		<scale x="8.7377" y="37.4447" z="8.7377"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-86.8959" y="9.4711" z="-13.4063"/>
 		<scale x="8.7377" y="37.4447" z="8.7377"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-55.9912" y="12.5" z="-10.0"/>
 		<scale x="14.0" y="1.0" z="20.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-56.0" y="12.5" z="20.0"/>
 		<scale x="14.0" y="1.0" z="20.0"/>
 	</wall>
-	<object mesh="Door.obj" mid="6">
+	<model mesh="Door.obj" material="6">
 		<position x="-62.0" y="9.0" z="4.5"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="1.0" y="2.0" z="0.1"/>
-	</object>
-	<wall mid="13">
+</model>
+	<wall material="13">
 		<position x="-52.5" y="10.5" z="15.3314"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-57.2588" y="10.5" z="16.5814"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-59.4912" y="10.5" z="19.8618"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-57.2588" y="10.5" z="21.1118"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-57.2412" y="10.5" z="25.5331"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-59.4912" y="10.5" z="24.2831"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-54.75" y="10.5" z="16.5814"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-54.75" y="10.5" z="21.028"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-52.5" y="10.5" z="19.778"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-52.5" y="10.5" z="24.324"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-54.75" y="10.5" z="25.574"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-54.7325" y="10.5" z="11.5"/>
 		<rotation x="0.0" y="180.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-53.4825" y="10.5" z="12.75"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="3.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-58.5208" y="10.5" z="-2.75"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="3.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-57.2708" y="10.5" z="-1.5"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-57.2504" y="10.5" z="-15.9861"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-59.4912" y="10.5" z="-14.7361"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-59.4912" y="10.5" z="-10.2731"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-57.2504" y="10.5" z="-11.5231"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-57.2412" y="10.5" z="-6.9938"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-52.5" y="10.5" z="-14.7459"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-54.75" y="10.5" z="-15.9959"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-54.75" y="10.5" z="-11.5746"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-52.5" y="10.5" z="-10.3246"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-54.75" y="10.5" z="-7.0444"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-59.4912" y="10.5" z="-5.7438"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-52.5" y="10.5" z="-5.7944"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="5.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-54.7221" y="10.5" z="-1.5"/>
 		<scale x="0.5" y="3.0" z="2.0"/>
 	</wall>
-	<wall mid="13">
+	<wall material="13">
 		<position x="-53.4721" y="10.5" z="-2.759"/>
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="0.5" y="3.0" z="3.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-34.7674" y="2.5" z="1.9562"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="Cube.obj" mid="4">
+	<model mesh="Cube.obj" material="4">
 		<position x="-34.7674" y="2.5" z="1.9562"/>
 		<rotation x="0.0" y="7.7389" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="-34.9797" y="2.5" z="0.7955"/>
 		<rotation x="0.0" y="354.4938" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="-34.9797" y="2.5" z="0.7955"/>
 		<rotation x="0.0" y="354.4938" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-34.8492" y="3.5" z="1.1658"/>
 		<rotation x="0.0" y="354.4938" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="Cube.obj" mid="4">
+	<model mesh="Cube.obj" material="4">
 		<position x="-34.8492" y="3.5" z="1.1658"/>
 		<rotation x="0.0" y="354.4938" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="-58.5908" y="10.5" z="-16.8272"/>
 		<rotation x="0.0" y="270.4141" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="-58.5908" y="10.5" z="-16.8272"/>
 		<rotation x="0.0" y="270.4141" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-58.2359" y="9.5" z="-16.9952"/>
 		<rotation x="0.0" y="270.4141" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="Cube.obj" mid="4">
+	<model mesh="Cube.obj" material="4">
 		<position x="-58.2359" y="9.5" z="-16.9952"/>
 		<rotation x="0.0" y="270.4141" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="-59.3686" y="9.5" z="-16.6643"/>
 		<rotation x="0.0" y="283.6592" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="-59.3686" y="9.5" z="-16.6643"/>
 		<rotation x="0.0" y="283.6592" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-58.4318" y="9.5" z="-18.3276"/>
 		<rotation x="0.0" y="263.5945" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="Cube.obj" mid="4">
+	<model mesh="Cube.obj" material="4">
 		<position x="-58.4318" y="9.5" z="-18.3276"/>
 		<rotation x="0.0" y="263.5945" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="-57.2544" y="9.5" z="-17.7467"/>
 		<rotation x="0.0" y="225.5137" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="-57.2544" y="9.5" z="-17.7467"/>
 		<rotation x="0.0" y="225.5137" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-57.6454" y="10.5" z="-18.2137"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="Cube.obj" mid="4">
+	<model mesh="Cube.obj" material="4">
 		<position x="-57.6454" y="10.5" z="-18.2137"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="-60.0421" y="10.5" z="-17.9276"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="-60.0421" y="10.5" z="-17.9276"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="-59.6511" y="9.5" z="-17.9636"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="Cube.obj" mid="4">
+	<model mesh="Cube.obj" material="4">
 		<position x="-59.6511" y="9.5" z="-17.9636"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="-60.8285" y="9.5" z="-18.0414"/>
 		<rotation x="0.0" y="263.5945" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="-60.8285" y="9.5" z="-18.0414"/>
 		<rotation x="0.0" y="263.5945" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="Cube.obj" mid="4">
+	<model mesh="Cube.obj" material="4">
 		<position x="-58.8" y="10.5" z="-18.0518"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="-59.2554" y="11.5" z="-18.0104"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="-58.4159" y="11.5" z="-16.5096"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="Cube.obj" mid="4">
+</model>
+	<model mesh="Cube.obj" material="4">
 		<position x="-59.6094" y="11.5" z="-16.8156"/>
 		<rotation x="0.0" y="250.3494" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<wall mid="2">
+</model>
+	<wall material="2">
 		<position x="-55.9893" y="9.5" z="-16.8697"/>
 		<rotation x="0.0" y="110.4814" z="0.0"/>
 		<scale x="0.7022" y="0.7022" z="0.7022"/>
 	</wall>
-	<object mesh="Cube.obj" mid="4">
+	<model mesh="Cube.obj" material="4">
 		<position x="-55.9893" y="9.5" z="-16.8697"/>
 		<rotation x="0.0" y="110.4814" z="0.0"/>
 		<scale x="1.0" y="1.0" z="1.0"/>
-	</object>
-	<object mesh="a4paper.obj" mid="11">
+</model>
+	<model mesh="a4paper.obj" material="11">
 		<position x="-54.1638" y="10.5303" z="0.0922"/>
 		<rotation x="359.9998" y="96.2767" z="266.9872"/>
 		<scale x="0.297" y="0.0012" z="0.21"/>
-	</object>
-	<object mesh="a4paper.obj" mid="12">
+</model>
+	<model mesh="a4paper.obj" material="12">
 		<position x="-53.789" y="10.6653" z="0.0251"/>
 		<rotation x="359.9998" y="96.2767" z="266.9872"/>
 		<scale x="0.297" y="0.0012" z="0.21"/>
-	</object>
-	<light b="0.9" distance="200.0" energy="1.0" g="0.95" r="1.0" x="-41.9147" y="97.5084" z="8.0822"/>
+</model>
+	<light distance="200.0" energy="1.0">
+		<position x="-41.9147" y="97.5084" z="8.0822"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
 </map>

@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 <map>
 	<materials>
-		<mat mid="1" name="metal/tiles00x3"/>
-		<mat mid="2" name="concrete/wall00"/>
-		<mat mid="3" name="fluid/acid00"/>
-		<mat mid="4" name="door/door"/>
+		<material id="1" name="metal/tiles00x3"/>
+		<material id="2" name="concrete/wall00"/>
+		<material id="3" name="fluid/acid00"/>
+		<material id="4" name="door/door"/>
 	</materials>
 	<trigger type="death">
 		<position x="12.75" y="-2.45" z="7.5"/>
@@ -14,11 +14,11 @@
 		<position x="12.75" y="-2.5" z="7.5"/>
 		<scale x="9.5" y="2.0" z="20.0"/>
 	</acid>
-	<wall mid="1">
+	<wall material="1">
 		<position x="-3.0" y="-2.5" z="7.5"/>
 		<scale x="1.0" y="2.0" z="20.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="7.5" y="-2.5" z="-3.0"/>
 		<scale x="20.0" y="2.0" z="1.0"/>
 	</wall>
@@ -30,29 +30,53 @@
 		<position x="17.5" y="-0.5" z="16.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 	</end>
-	<light b="1.0" distance="2.0" energy="4.0" g="0.5" r="0.5" x="17.4" y="2.0" z="16.0"/>
-	<light b="0.9" distance="20.0" energy="1.5" g="0.95" r="1.0" specular="1" x="15.0" y="7.0" z="8.0"/>
-	<light b="0.9" distance="20.0" energy="1.65" g="0.95" r="1.0" specular="1" x="0.0" y="7.0" z="8.0"/>
-	<light b="0.9" distance="30.0" energy="0.2" g="0.95" r="1.0" specular="1" x="9.0" y="4.0" z="8.0"/>
-	<light b="0.9" distance="30.0" energy="0.2" g="0.95" r="1.0" specular="1" x="7.0" y="4.0" z="7.0"/>
-	<light b="0.9" distance="30.0" energy="0.1" g="0.95" r="1.0" specular="1" x="12.0" y="7.0" z="15.0"/>
-	<wall mid="1">
+	<light distance="2.0" energy="4.0">
+		<position x="17.4" y="2.0" z="16.0"/>
+		<color r="0.5" g="0.5" b="1.0"/>
+	</light>
+
+	<light distance="20.0" energy="1.5" specular="1">
+		<position x="15.0" y="7.0" z="8.0"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
+	<light distance="20.0" energy="1.65" specular="1">
+		<position x="0.0" y="7.0" z="8.0"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
+	<light distance="30.0" energy="0.2" specular="1">
+		<position x="9.0" y="4.0" z="8.0"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
+	<light distance="30.0" energy="0.2" specular="1">
+		<position x="7.0" y="4.0" z="7.0"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
+	<light distance="30.0" energy="0.1" specular="1">
+		<position x="12.0" y="7.0" z="15.0"/>
+		<color r="1.0" g="0.95" b="0.9"/>
+	</light>
+
+	<wall material="1">
 		<position x="0.0" y="-1.0" z="0.0"/>
 		<scale x="5.0" y="1.0" z="5.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="15.0" y="-1.0" z="0.0"/>
 		<scale x="5.0" y="1.0" z="5.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="0.0" y="-1.0" z="15.0"/>
 		<scale x="5.0" y="1.0" z="5.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="15.0" y="3.25" z="15.0"/>
 		<scale x="5.0" y="0.5" z="5.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="16.0" y="-1.0" z="16.0"/>
 		<scale x="3.0" y="1.0" z="3.0"/>
 	</wall>
@@ -64,83 +88,83 @@
 		<position x="2.25" y="-2.45" z="7.5"/>
 		<scale x="9.5" y="2.1" z="20.0"/>
 	</trigger>
-	<wall mid="1">
+	<wall material="1">
 		<position x="7.5" y="8.0" z="7.5"/>
 		<scale x="20.0" y="1.0" z="20.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="-3.0" y="3.5" z="-0.0"/>
 		<scale x="1.0" y="8.0" z="5.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="-3.0" y="3.0" z="10.0"/>
 		<scale x="1.0" y="9.0" z="15.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="18.0" y="3.5" z="0.0"/>
 		<scale x="1.0" y="8.0" z="5.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="18.0" y="3.0" z="7.5"/>
 		<scale x="1.0" y="9.0" z="10.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="18.0" y="1.0" z="15.0"/>
 		<scale x="1.0" y="5.0" z="5.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="18.0" y="5.5" z="15.0"/>
 		<scale x="1.0" y="4.0" z="5.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="0.0" y="3.5" z="-3.0"/>
 		<scale x="5.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="7.5" y="3.0" z="-3.0"/>
 		<scale x="10.0" y="9.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="15.0" y="3.5" z="-3.0"/>
 		<scale x="5.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="0.0" y="3.5" z="18.0"/>
 		<scale x="5.0" y="8.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="7.5" y="3.0" z="18.0"/>
 		<scale x="10.0" y="9.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="15.0" y="5.5" z="18.0"/>
 		<scale x="5.0" y="4.0" z="1.0"/>
 	</wall>
-	<wall mid="2">
+	<wall material="2">
 		<position x="15.0" y="1.25" z="18.0"/>
 		<scale x="5.0" y="3.5" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="13.5" y="-1.0" z="18.0"/>
 		<scale x="2.0" y="1.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="7.5" y="1.5" z="5.0"/>
 		<scale x="1.0" y="10.0" z="15.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="7.5" y="0.0" z="15.0"/>
 		<scale x="1.0" y="7.0" z="5.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="7.5" y="-2.5" z="18.0"/>
 		<scale x="20.0" y="2.0" z="1.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="18.0" y="-2.5" z="7.5"/>
 		<scale x="1.0" y="2.0" z="20.0"/>
 	</wall>
-	<wall mid="1">
+	<wall material="1">
 		<position x="7.5" y="-4.0" z="7.5"/>
 		<scale x="20.0" y="1.0" z="20.0"/>
 	</wall>
