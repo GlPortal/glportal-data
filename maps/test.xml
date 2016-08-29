@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <map>
 	<materials>
-		<mat mid="1" name="concrete/wall00"/>
-		<mat mid="2" name="metal/tiles00x3"/>
+		<material id="1" name="concrete/wall00"/>
+		<material id="2" name="metal/tiles00x3"/>
 	</materials>
 	<spawn>
 		<position x="2.5" y="1" z="5"/>
@@ -12,7 +12,13 @@
 		<position x="25" y="0" z="5"/>
 		<rotation x="0" y="90" z="0"/>
 	</end>
-	<light x="10" y="6" z="5" r="0.9" g="0.9" b="1"/>
+
+	<!-- this may be broken, light element was missing energy and distance, put 1 by default-->
+	<light distance="1" energy="1">
+		<position x="10" y="6" z="5"/>
+		<color r="0.9" g="0.9" b="1"/>
+	</light>
+
 	
 	<wall mat="1">
 		<position x="8" y="-3" z="5"/>
