@@ -1,0 +1,8 @@
+<mat name="models/HumanToken" fancyname="HumanToken">
+	<diffuse path="HumanToken.png"/>
+	<surface portalable="false"/>
+	<scale u="1" v="1"/>
+	<kind>models</kind>
+	<tags>models,human</tags>
+	<tiles scale="3"/>
+</mat>
