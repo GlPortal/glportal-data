@@ -1,5 +1,4 @@
 #version 130
-#extension GL_ARB_uniform_buffer_object : enable
 
 struct Light {
 	vec3 position;
@@ -16,13 +15,8 @@ uniform mat4 viewMatrix;
 uniform sampler2D diffuse;
 uniform sampler2D normalMap;
 uniform sampler2D specularMap;
-#if defined(GL_ARB_uniform_buffer_object) && !defined(RADIX_DISABLE_GL_UBO)
-uniform lightsUB {
-  Light lights[64];
-};
-#else
+
 uniform Light lights[64];
-#endif
 uniform int numLights;
 
 in vec3 pass_position;
