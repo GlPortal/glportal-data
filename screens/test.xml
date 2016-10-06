@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Screen alpha="255">
+    <TextSection>
+        <Text x="100" y="100" z="-20" size="5">TEST</Text>
+    </TextSection>
+    <ColorSection>
+        <TextColor r="1" g="1" b="1" a="1"/>
+        <BgColor r="1" g="1" b="1" a="1"/>
+    </ColorSection>
+</Screen>
