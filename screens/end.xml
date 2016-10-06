@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<screen>
+  <text size="4" top="100" align="centered" z="1">
+    Game Over
+  </text>
+  <text size="1" top="120" align="centered" z="1">
+    Press Q to quit.
+  </text>
+</screen>

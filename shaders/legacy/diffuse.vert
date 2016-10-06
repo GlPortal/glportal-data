@@ -1,4 +1,4 @@
-#version 130
+#version 120
 
 uniform mat4 projectionMatrix;
 uniform mat4 viewMatrix;
@@ -8,20 +8,20 @@ uniform mat4 modelTrInv4Matrix;
 
 uniform vec2 tiling;
 
-in vec3 position;
-in vec2 texCoord;
-in vec3 normal;
-in vec3 tangent;
-in vec4 color;
+attribute vec3 position;
+attribute vec2 texCoord;
+attribute vec3 normal;
+attribute vec3 tangent;
+attribute vec4 color;
 
-out vec3 pass_position;
-out vec2 pass_texCoord;
-out vec3 pass_normal;
-out vec3 pass_tangent;
-out vec4 pass_color;
-invariant out vec3 pass_viewerPos;
-invariant out mat3 pass_surf2world;
-out vec3 pass_worldPos;
+varying vec3 pass_position;
+varying vec2 pass_texCoord;
+varying vec3 pass_normal;
+varying vec3 pass_tangent;
+varying vec4 pass_color;
+invariant varying vec3 pass_viewerPos;
+invariant varying mat3 pass_surf2world;
+varying vec3 pass_worldPos;
 
 void main() {
 	pass_position = position;

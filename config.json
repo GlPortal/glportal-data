@@ -9,7 +9,8 @@
 	},
 	"mouse": {
 		"sensitivity": 0.30,
-		"hide_portals_by_click": true
+		"hide_portals_by_click": true,
+		"cursor_visibility": false
 	},
 	"sound": {
 		"enabled": true

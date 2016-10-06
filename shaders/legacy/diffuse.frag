@@ -1,4 +1,5 @@
-#version 130
+#version 120
+#extension GL_ARB_uniform_buffer_object : enable
 
 struct Light {
 	vec3 position;
@@ -15,29 +16,32 @@ uniform mat4 viewMatrix;
 uniform sampler2D diffuse;
 uniform sampler2D normalMap;
 uniform sampler2D specularMap;
-
+#if defined(GL_ARB_uniform_buffer_object) && !defined(RADIX_DISABLE_GL_UBO)
+uniform lightsUB {
+  Light lights[64];
+};
+#else
 uniform Light lights[64];
+#endif
 uniform int numLights;
 
-in vec3 pass_position;
-in vec2 pass_texCoord;
-in vec3 pass_normal;
-in vec3 pass_tangent;
-invariant in vec3 pass_viewerPos;
-invariant in mat3 pass_surf2world;
-in vec3 pass_worldPos;
-
-out vec4 out_Color;
+varying vec3 pass_position;
+varying vec2 pass_texCoord;
+varying vec3 pass_normal;
+varying vec3 pass_tangent;
+invariant varying vec3 pass_viewerPos;
+invariant varying mat3 pass_surf2world;
+varying vec3 pass_worldPos;
 
 void main(void) {
 	// Normals
 	// Use MAD (Multiply And Add), like below
-	vec3 localCoords = (texture(normalMap, pass_texCoord).xyz * 2) - 1;
+	vec3 localCoords = (texture2D(normalMap, pass_texCoord).xyz * 2) - 1;
 	vec3 normal = normalize(pass_surf2world * localCoords);
 	vec3 viewDirection = normalize(pass_viewerPos - pass_worldPos);
-	float gloss = texture(specularMap, pass_texCoord).r * 255.0;
+	float gloss = texture2D(specularMap, pass_texCoord).r * 255.0;
 	float normalization = (gloss + 8) * 0.125;
-	vec3 diffuseColor = texture(diffuse, pass_texCoord).rgb;
+	vec3 diffuseColor = texture2D(diffuse, pass_texCoord).rgb;
 
 	vec3 refl = .3 * diffuseColor;
 
@@ -63,5 +67,5 @@ void main(void) {
 		}
 	}
 
-	out_Color = vec4(refl, 1.0);
+	gl_FragColor = vec4(refl, 1.0);
 }
