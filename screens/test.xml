@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
 <screen r="0" g="0" b="0" a="0.6">
-    <text size="4" top="500" align="centered" z="-21" r="1" g="1" b="1" a="1">GlPortal</text>
-    <text size="1" top="550" align="centered" z="-21" r="1" g="1" b="1" a="1">Press enter to start.</text>
+    <text size="4" top="500" align="center" z="-21" r="1" g="1" b="1" a="1">GlPortal</text>
+    <text size="1" top="550" align="center" z="-21" r="1" g="1" b="1" a="1">Press enter to start.</text>
 </screen>
