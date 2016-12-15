@@ -1,7 +1,5 @@
 #version 130
 
-uniform mat4 modelMatrix;
-
 uniform sampler2D diffuse;
 
 in vec3 pass_position;
