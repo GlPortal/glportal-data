@@ -14,5 +14,8 @@
 	},
 	"sound": {
 		"enabled": true
+	},
+	"logging": {
+		"loglevel": "debug"
 	}
 }

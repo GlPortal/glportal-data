@@ -102,6 +102,11 @@
 		<position x="2.5" y="1.0" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
+	<trigger type="win">
+		<position x="1" y="1.0" z="2.0"/>
+		<rotation x="0.0" y="270.0" z="0"/>
+		<scale x="1" y="2.1" z="1.0"/>
+	</trigger>
 	<wall material="2">
 		<position x="5.375" y="-0.3671" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>

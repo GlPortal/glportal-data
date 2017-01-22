@@ -8,10 +8,6 @@ struct Light {
 	float specular;
 };
 
-uniform mat4 modelMatrix;
-uniform mat4 viewMatrix;
-//uniform mat4 invViewMatrix;
-
 uniform sampler2D diffuse;
 uniform sampler2D normalMap;
 uniform sampler2D specularMap;
