@@ -22,7 +22,11 @@
 		<position x="-1.1766" y="-2.2597" z="2.0149"/>
 		<scale x="18.351" y="2.0" z="2.0"/>
 	</wall>
-	<trigger type="win">
+	<destination name="destination">
+		<position x="-0.8441" y="0.3563" z="2.0868"/>
+		<rotation x="358.8442" y="89.7516" z="0"/>
+	</destination>
+	<trigger type="teleport" destination="destination">
 		<position x="-5.7335" y="0.0052" z="2.0072"/>
 		<scale x="2.0" y="2.0" z="2.0"/>
 	</trigger>
