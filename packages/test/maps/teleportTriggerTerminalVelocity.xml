@@ -23,13 +23,17 @@
 		<scale x="18.351" y="2.0" z="2.0"/>
 	</wall>
 	<destination name="destination">
-		<position x="-5.7335" y="2.0052" z="2.0072"/>
+		<position x="-5.7335" y="10.0052" z="2.0072"/>
 		<rotation x="358.8442" y="89.7516" z="0"/>
 	</destination>
 	<trigger type="teleport" destination="destination">
 		<position x="-5.7335" y="0.0052" z="2.0072"/>
-		<scale x="3.0" y="2.0" z="3.0"/>
+		<scale x="3.0" y="0.1" z="3.0"/>
 	</trigger>
+	<model mesh="Cube.obj" material="4">
+		<position x="-5.7335" y="0.0002" z="2.0072"/>
+		<scale x="3.0" y="0.001" z="3.0"/>
+	</model>
 	<wall material="2">
 		<position x="-7.1684" y="-0.0808" z="1.9881"/>
 		<scale x="0.4137" y="0.4137" z="0.4137"/>
