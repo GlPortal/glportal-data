@@ -8,6 +8,7 @@ list ( APPEND DIRS
 	audio
 	fonts
 	maps
+	screens
 	meshes
 	shaders
 	textures
