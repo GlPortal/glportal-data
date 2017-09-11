@@ -1,0 +1,5 @@
+<mat name="dev/wall00" fancyname="Dev wall 00">
+	<diffuse path="wall00.png"/>
+	<scale u="1" v="1"/>
+	<kind>concrete</kind>
+</mat>
