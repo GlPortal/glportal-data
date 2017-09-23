@@ -1,0 +1,5 @@
+<mat name="dev/colors/white" fancyname="Dev color white">
+	<diffuse path="white.png"/>
+	<scale u="1" v="1"/>
+	<kind>none</kind>
+</mat>
