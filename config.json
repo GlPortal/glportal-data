@@ -17,5 +17,11 @@
 	},
 	"logging": {
 		"loglevel": "debug"
+	},
+	"debug": {
+		"gl_context_debug": false,
+		"profiler": {
+			"enable": false
+		}
 	}
 }
