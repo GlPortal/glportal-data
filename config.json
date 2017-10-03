@@ -13,7 +13,7 @@
 		"cursor_visibility": false
 	},
 	"sound": {
-		"enabled": true
+		"enable": true
 	},
 	"logging": {
 		"loglevel": "debug"
@@ -21,10 +21,10 @@
 	"debug": {
 		"gl_context_debug": false,
 		"profiler": {
-			"enabled": false
+			"enable": false
 		},
 		"wireframes": {
-      "enabled": false
+      "enable": false
     }
 	}
 }
