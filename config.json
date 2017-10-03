@@ -21,7 +21,10 @@
 	"debug": {
 		"gl_context_debug": false,
 		"profiler": {
-			"enable": false
-		}
+			"enabled": false
+		},
+		"wireframes": {
+      "enabled": false
+    }
 	}
 }
