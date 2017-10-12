@@ -25,6 +25,9 @@
 		},
 		"wireframes": {
       "enable": false
+    },
+    "flying": {
+      "enable": true
     }
 	}
 }
