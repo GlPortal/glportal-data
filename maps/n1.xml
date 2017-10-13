@@ -81,36 +81,33 @@
 	</wall>
 	<light distance="120.0" energy="0.4" specular="1">
 		<position x="5.0" y="6.0" z="5.0"/>
-		<color r="1.0" g="0.95" b="0.9"/>
+		<color b="0.9" g="0.95" r="1.0"/>
 	</light>
-
 	<light distance="60.0" energy="0.4" specular="1">
 		<position x="15.0" y="6.0" z="5.0"/>
-		<color r="1.0" g="0.95" b="0.9"/>
+		<color b="0.9" g="0.95" r="1.0"/>
 	</light>
-
 	<light distance="4.0" energy="5.0">
 		<position x="10.0" y="5.9571" z="5.0"/>
-		<color r="1.0" g="0.95" b="0.9"/>
+		<color b="0.9" g="0.95" r="1.0"/>
 	</light>
-
 	<end>
 		<position x="25.0" y="0.0" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 	</end>
-	<trigger type="map" file="n2">
+	<trigger file="n2" type="map">
 		<position x="25.0" y="0.0" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
-		<scale x="1" y="2.1" z="1.0"/>
+		<scale x="1.0" y="2.1" z="1.0"/>
 	</trigger>
 	<spawn>
 		<position x="2.5" y="1.0" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
-	<trigger type="audio" file="music/track1.ogg">
-		<position x="1" y="1.0" z="2.0"/>
-		<rotation x="0.0" y="270.0" z="0"/>
-		<scale x="1" y="2.1" z="1.0"/>
+	<trigger file="music/track1.ogg" loop="false" type="audio">
+		<position x="3.0875" y="1.0" z="4.4059"/>
+		<rotation x="0.0" y="270.0" z="0.0"/>
+		<scale x="7.7078" y="2.1" z="5.8774"/>
 	</trigger>
 	<wall material="2">
 		<position x="5.375" y="-0.3671" z="2.5"/>
@@ -188,16 +185,16 @@
 		<position x="9.875" y="-4.8353" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<model mesh="light-fixture.obj" material="4">
+	<model material="4" mesh="light-fixture.obj">
 		<position x="4.9937" y="7.9545" z="5.0236"/>
 		<scale x="2.0" y="0.091" z="0.301"/>
-</model>
-	<model mesh="light-fixture.obj" material="4">
+	</model>
+	<model material="4" mesh="light-fixture.obj">
 		<position x="9.9791" y="7.9545" z="5.0334"/>
 		<scale x="2.0" y="0.091" z="0.301"/>
-</model>
-	<model mesh="light-fixture.obj" material="4">
+	</model>
+	<model material="4" mesh="light-fixture.obj">
 		<position x="15.0125" y="7.9545" z="5.0334"/>
 		<scale x="2.0" y="0.091" z="0.301"/>
-</model>
+	</model>
 </map>
