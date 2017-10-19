@@ -1,80 +1,80 @@
 <?xml version="1.0" ?>
 <map>
 	<materials>
-		<material id="1" name="metal/tiles00x3"/>
+		<material id="1" name="wood/wood"/>
 		<material id="2" name="models/light-fixture"/>
-		<material id="3" name="wood/wood"/>
+		<material id="3" name="metal/tiles00x3"/>
 	</materials>
-	<wall material="1">
+	<wall material="3">
 		<position x="2.0" y="6.0" z="-0.5"/>
 		<scale x="4.0" y="4.0" z="1.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="5.125" y="-0.125" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="10.0" y="-5.5" z="5.0"/>
 		<scale x="10.0" y="1.0" z="10.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="25.5" y="2.0" z="5.0"/>
 		<scale x="1.0" y="4.0" z="4.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="22.75" y="4.5" z="5.0"/>
 		<rotation x="0.0" y="0.0" z="180.0"/>
 		<scale x="4.5" y="1.0" z="4.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="22.5" y="-0.5" z="5.0"/>
 		<scale x="5.0" y="1.0" z="4.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="23.0" y="2.0" z="7.5"/>
 		<scale x="4.0" y="4.0" z="1.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="23.0" y="2.0" z="2.5"/>
 		<scale x="4.0" y="4.0" z="1.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="20.5" y="4.0" z="8.5"/>
 		<scale x="1.0" y="8.0" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="20.5" y="4.0" z="1.5"/>
 		<scale x="1.0" y="8.0" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="-0.5" y="4.0" z="5.0"/>
 		<scale x="1.0" y="8.0" z="10.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="10.0" y="8.5" z="5.0"/>
 		<scale x="20.0" y="1.0" z="10.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="17.5" y="-2.5" z="5.0"/>
 		<scale x="5.0" y="5.0" z="10.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="2.5" y="-2.5" z="5.0"/>
 		<scale x="5.0" y="5.0" z="10.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="10.0" y="1.5" z="10.5"/>
 		<scale x="20.0" y="13.0" z="1.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="12.0" y="1.5" z="-0.5"/>
 		<scale x="16.0" y="13.0" z="1.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="2.0" y="2.0" z="-0.5"/>
 		<scale x="4.0" y="4.0" z="1.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="20.25" y="6.0" z="5.0"/>
 		<scale x="0.5" y="4.0" z="4.0"/>
 	</wall>
@@ -94,7 +94,7 @@
 		<position x="25.0" y="0.0" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 	</end>
-	<trigger file="beam1" type="map">
+	<trigger file="n2" type="map">
 		<position x="25.0" y="0.876" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="2.1" z="1.0"/>
@@ -103,79 +103,84 @@
 		<position x="2.5" y="1.0" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
-	<wall material="1">
+	<trigger file="music/track1.ogg" loop="false" type="audio">
+		<position x="3.0875" y="1.0" z="4.4059"/>
+		<rotation x="0.0" y="270.0" z="0.0"/>
+		<scale x="7.7078" y="2.1" z="5.8774"/>
+	</trigger>
+	<wall material="3">
 		<position x="5.375" y="-0.3671" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="5.625" y="-0.6171" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="5.875" y="-0.8671" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="6.875" y="-1.8591" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="6.625" y="-1.6091" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="6.375" y="-1.3591" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="6.125" y="-1.1171" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="7.125" y="-2.1091" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="7.375" y="-2.3512" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="7.625" y="-2.6012" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="7.875" y="-2.8512" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="8.875" y="-3.8432" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="8.625" y="-3.5932" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="8.375" y="-3.3432" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="8.125" y="-3.1012" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="9.125" y="-4.0932" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="9.375" y="-4.3353" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="9.625" y="-4.5853" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
-	<wall material="1">
+	<wall material="3">
 		<position x="9.875" y="-4.8353" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
@@ -191,9 +196,14 @@
 		<position x="15.0125" y="7.9545" z="5.0334"/>
 		<scale x="2.0" y="0.091" z="0.301"/>
 	</model>
-	<wall material="3">
-		<position x="9.8401" y="0.1278" z="6.117"/>
-		<rotation x="0.0" y="341.4144" z="0.0"/>
-		<scale x="12.0" y="0.25" z="0.5"/>
+	<wall material="1">
+		<position x="7.1621" y="0.1278" z="6.117"/>
+		<rotation x="0.0" y="28.0559" z="0.0"/>
+		<scale x="14.0561" y="0.25" z="0.5"/>
+	</wall>
+	<wall material="1">
+		<position x="13.118" y="-2.5354" z="2.864"/>
+		<rotation x="0.0" y="0.0" z="90.0"/>
+		<scale x="4.9384" y="0.25" z="0.5"/>
 	</wall>
 </map>
