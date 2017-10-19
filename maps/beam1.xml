@@ -96,7 +96,7 @@
 		<position x="25.0" y="0.0" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 	</end>
-	<trigger file="n2" type="map">
+	<trigger file="beam2" type="map">
 		<position x="25.0" y="0.876" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
 		<scale x="1.0" y="2.1" z="1.0"/>

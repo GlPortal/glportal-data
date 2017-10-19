@@ -1,0 +1,625 @@
+<?xml version="1.0" ?>
+<map>
+	<materials>
+		<material id="1" name="metal/tiles00x3"/>
+		<material id="2" name="wood/wood"/>
+		<material id="3" name="models/light-fixture"/>
+		<material id="4" name="door/door1"/>
+	</materials>
+	<wall material="1">
+		<position x="2.0" y="6.0" z="-0.5"/>
+		<scale x="4.0" y="4.0" z="1.0"/>
+	</wall>
+	<wall material="1">
+		<position x="5.125" y="-0.125" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="10.0" y="-5.5" z="5.0"/>
+		<scale x="10.0" y="1.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="55.1146" y="2.0" z="5.0"/>
+		<scale x="1.0" y="4.0" z="4.0"/>
+	</wall>
+	<wall material="1">
+		<position x="52.3646" y="4.5" z="5.0"/>
+		<rotation x="0.0" y="0.0" z="180.0"/>
+		<scale x="4.5" y="1.0" z="4.0"/>
+	</wall>
+	<wall material="1">
+		<position x="52.1146" y="-0.5" z="5.0"/>
+		<scale x="5.0" y="1.0" z="4.0"/>
+	</wall>
+	<wall material="1">
+		<position x="52.6146" y="2.0" z="7.5"/>
+		<scale x="4.0" y="4.0" z="1.0"/>
+	</wall>
+	<wall material="1">
+		<position x="52.6146" y="2.0" z="2.5"/>
+		<scale x="4.0" y="4.0" z="1.0"/>
+	</wall>
+	<wall material="1">
+		<position x="50.1146" y="4.0" z="8.5"/>
+		<scale x="1.0" y="8.0" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="50.1146" y="4.0" z="1.5"/>
+		<scale x="1.0" y="8.0" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="-0.5" y="4.0" z="5.0"/>
+		<scale x="1.0" y="8.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="30.0" y="8.5" z="5.0"/>
+		<scale x="60.0" y="1.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="47.5" y="-2.5" z="5.0"/>
+		<scale x="5.0" y="5.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="2.5" y="-2.5" z="5.0"/>
+		<scale x="5.0" y="5.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="30.0" y="1.5" z="10.5"/>
+		<scale x="60.0" y="13.0" z="1.0"/>
+	</wall>
+	<wall material="1">
+		<position x="30.2331" y="1.5" z="-0.5"/>
+		<scale x="60.0" y="13.0" z="1.0"/>
+	</wall>
+	<wall material="1">
+		<position x="2.0" y="2.0" z="-0.5"/>
+		<scale x="4.0" y="4.0" z="1.0"/>
+	</wall>
+	<wall material="1">
+		<position x="49.8646" y="6.0" z="5.0"/>
+		<scale x="0.5" y="4.0" z="4.0"/>
+	</wall>
+	<light distance="120.0" energy="0.4" specular="1">
+		<position x="5.0" y="6.0" z="5.0"/>
+		<color b="0.9" g="0.95" r="1.0"/>
+	</light>
+	<light distance="60.0" energy="0.4" specular="1">
+		<position x="44.6146" y="6.0" z="5.0"/>
+		<color b="0.9" g="0.95" r="1.0"/>
+	</light>
+	<light distance="4.0" energy="5.0">
+		<position x="27.1681" y="5.9571" z="5.0"/>
+		<color b="0.9" g="0.95" r="1.0"/>
+	</light>
+	<end>
+		<position x="54.6146" y="0.0" z="5.0"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+	</end>
+	<trigger file="beam1" type="map">
+		<position x="54.6146" y="0.876" z="5.0"/>
+		<rotation x="0.0" y="90.0" z="0.0"/>
+		<scale x="1.0" y="2.1" z="1.0"/>
+	</trigger>
+	<spawn>
+		<position x="2.5" y="1.0" z="5.0"/>
+		<rotation x="0.0" y="270.0" z="0"/>
+	</spawn>
+	<wall material="1">
+		<position x="5.375" y="-0.3671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="5.625" y="-0.6171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="5.875" y="-0.8671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="6.875" y="-1.8591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="6.625" y="-1.6091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="6.375" y="-1.3591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="6.125" y="-1.1171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="7.125" y="-2.1091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="7.375" y="-2.3512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="7.625" y="-2.6012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="7.875" y="-2.8512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="8.875" y="-3.8432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="8.625" y="-3.5932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="8.375" y="-3.3432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="8.125" y="-3.1012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="9.125" y="-4.0932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="9.375" y="-4.3353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="9.625" y="-4.5853" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="9.875" y="-4.8353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<model material="3" mesh="light-fixture.obj">
+		<position x="4.9937" y="7.9545" z="5.0236"/>
+		<scale x="2.0" y="0.091" z="0.301"/>
+	</model>
+	<model material="3" mesh="light-fixture.obj">
+		<position x="27.1472" y="7.9545" z="5.0334"/>
+		<scale x="2.0" y="0.091" z="0.301"/>
+	</model>
+	<model material="3" mesh="light-fixture.obj">
+		<position x="44.6271" y="7.9545" z="5.0334"/>
+		<scale x="2.0" y="0.091" z="0.301"/>
+	</model>
+	<wall material="2">
+		<position x="9.8401" y="0.1278" z="6.117"/>
+		<rotation x="0.0" y="341.4144" z="0.0"/>
+		<scale x="12.0" y="0.25" z="0.5"/>
+	</wall>
+	<wall material="1">
+		<position x="25.0" y="-5.5" z="5.0"/>
+		<scale x="10.0" y="1.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="17.5" y="-2.5" z="5.0"/>
+		<scale x="5.0" y="5.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="32.5" y="-2.5" z="5.0"/>
+		<scale x="5.0" y="5.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="40.0" y="-5.5" z="5.0"/>
+		<scale x="10.0" y="1.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="25.0" y="-5.5" z="5.0"/>
+		<scale x="10.0" y="1.0" z="10.0"/>
+	</wall>
+	<wall material="1">
+		<position x="9.875" y="-4.8353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="9.625" y="-4.5853" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="9.375" y="-4.3353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="9.125" y="-4.0932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="8.125" y="-3.1012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="8.375" y="-3.3432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="8.625" y="-3.5932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="8.875" y="-3.8432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="7.875" y="-2.8512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="7.625" y="-2.6012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="7.375" y="-2.3512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="7.125" y="-2.1091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="6.125" y="-1.1171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="6.375" y="-1.3591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="6.625" y="-1.6091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="6.875" y="-1.8591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="5.875" y="-0.8671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="5.625" y="-0.6171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="5.375" y="-0.3671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="5.125" y="-0.125" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="20.125" y="-0.125" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="20.375" y="-0.3671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="20.625" y="-0.6171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="20.875" y="-0.8671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="21.875" y="-1.8591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="21.625" y="-1.6091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="21.375" y="-1.3591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="21.125" y="-1.1171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="22.125" y="-2.1091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="22.375" y="-2.3512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="22.625" y="-2.6012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="22.875" y="-2.8512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="23.875" y="-3.8432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="23.625" y="-3.5932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="23.375" y="-3.3432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="23.125" y="-3.1012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="24.125" y="-4.0932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="24.375" y="-4.3353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="24.625" y="-4.5853" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="24.875" y="-4.8353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="24.875" y="-4.8353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="24.625" y="-4.5853" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="24.375" y="-4.3353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="24.125" y="-4.0932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="23.125" y="-3.1012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="23.375" y="-3.3432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="23.625" y="-3.5932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="23.875" y="-3.8432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="22.875" y="-2.8512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="22.625" y="-2.6012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="22.375" y="-2.3512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="22.125" y="-2.1091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="21.125" y="-1.1171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="21.375" y="-1.3591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="21.625" y="-1.6091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="21.875" y="-1.8591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="20.875" y="-0.8671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="20.625" y="-0.6171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="20.375" y="-0.3671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="20.125" y="-0.125" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="35.125" y="-0.125" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="35.375" y="-0.3671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="35.625" y="-0.6171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="35.875" y="-0.8671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="36.875" y="-1.8591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="36.625" y="-1.6091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="36.375" y="-1.3591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="36.125" y="-1.1171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="37.125" y="-2.1091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="37.375" y="-2.3512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="37.625" y="-2.6012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="37.875" y="-2.8512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="38.875" y="-3.8432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="38.625" y="-3.5932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="38.375" y="-3.3432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="38.125" y="-3.1012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="39.125" y="-4.0932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="39.375" y="-4.3353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="39.625" y="-4.5853" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="39.875" y="-4.8353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="39.875" y="-4.8353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="39.625" y="-4.5853" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="39.375" y="-4.3353" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="39.125" y="-4.0932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="38.125" y="-3.1012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="38.375" y="-3.3432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="38.625" y="-3.5932" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="38.875" y="-3.8432" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="37.875" y="-2.8512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="37.625" y="-2.6012" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="37.375" y="-2.3512" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="37.125" y="-2.1091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="36.125" y="-1.1171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="36.375" y="-1.3591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="36.625" y="-1.6091" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="36.875" y="-1.8591" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="35.875" y="-0.8671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="35.625" y="-0.6171" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="35.375" y="-0.3671" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<wall material="1">
+		<position x="35.125" y="-0.125" z="2.5"/>
+		<scale x="0.25" y="0.25" z="3.0"/>
+	</wall>
+	<model material="4" mesh="Door.obj">
+		<position x="0.0" y="0.0" z="5.5"/>
+		<rotation x="0.0" y="270.0" z="0.0"/>
+		<scale x="1.0" y="2.0" z="0.1"/>
+	</model>
+</map>
