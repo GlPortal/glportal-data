@@ -4,6 +4,7 @@
 		<material id="1" name="metal/tiles00x3"/>
 		<material id="2" name="models/light-fixture"/>
 		<material id="3" name="wood/wood"/>
+		<material id="4" name="door/door1"/>
 	</materials>
 	<wall material="1">
 		<position x="2.0" y="6.0" z="-0.5"/>
@@ -196,4 +197,9 @@
 		<rotation x="0.0" y="341.4144" z="0.0"/>
 		<scale x="12.0" y="0.25" z="0.5"/>
 	</wall>
+	<model material="4" mesh="Door.obj">
+		<position x="0.0" y="-0.0058" z="5.0"/>
+		<rotation x="0.0" y="270.0" z="0.0"/>
+		<scale x="1.0" y="2.0" z="0.1"/>
+	</model>
 </map>
