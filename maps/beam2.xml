@@ -7,10 +7,6 @@
 		<material id="4" name="door/door1"/>
 	</materials>
 	<wall material="1">
-		<position x="2.0" y="6.0" z="-0.5"/>
-		<scale x="4.0" y="4.0" z="1.0"/>
-	</wall>
-	<wall material="1">
 		<position x="5.125" y="-0.125" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
 	</wall>
@@ -68,12 +64,8 @@
 		<scale x="60.0" y="13.0" z="1.0"/>
 	</wall>
 	<wall material="1">
-		<position x="30.2331" y="1.5" z="-0.5"/>
+		<position x="30.0" y="1.5" z="-0.5"/>
 		<scale x="60.0" y="13.0" z="1.0"/>
-	</wall>
-	<wall material="1">
-		<position x="2.0" y="2.0" z="-0.5"/>
-		<scale x="4.0" y="4.0" z="1.0"/>
 	</wall>
 	<wall material="1">
 		<position x="49.8646" y="6.0" z="5.0"/>
