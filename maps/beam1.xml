@@ -4,6 +4,8 @@
 		<material id="1" name="wood/wood"/>
 		<material id="2" name="models/light-fixture"/>
 		<material id="3" name="metal/tiles00x3"/>
+		<material id="4" name="crate/crate"/>
+		<material id="5" name="door/door1"/>
 	</materials>
 	<wall material="3">
 		<position x="2.0" y="6.0" z="-0.5"/>
@@ -103,11 +105,6 @@
 		<position x="2.5" y="1.0" z="5.0"/>
 		<rotation x="0.0" y="270.0" z="0"/>
 	</spawn>
-	<trigger file="music/track1.ogg" loop="false" type="audio">
-		<position x="3.0875" y="1.0" z="4.4059"/>
-		<rotation x="0.0" y="270.0" z="0.0"/>
-		<scale x="7.7078" y="2.1" z="5.8774"/>
-	</trigger>
 	<wall material="3">
 		<position x="5.375" y="-0.3671" z="2.5"/>
 		<scale x="0.25" y="0.25" z="3.0"/>
@@ -197,13 +194,44 @@
 		<scale x="2.0" y="0.091" z="0.301"/>
 	</model>
 	<wall material="1">
-		<position x="7.1621" y="0.1278" z="6.117"/>
+		<position x="7.1621" y="0.1817" z="6.117"/>
 		<rotation x="0.0" y="28.0559" z="0.0"/>
 		<scale x="14.0561" y="0.25" z="0.5"/>
 	</wall>
-	<wall material="1">
-		<position x="13.118" y="-2.5354" z="2.864"/>
-		<rotation x="0.0" y="0.0" z="90.0"/>
-		<scale x="4.9384" y="0.25" z="0.5"/>
+	<model material="4" mesh="Cube.obj">
+		<position x="11.8262" y="-4.4368" z="2.9879"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</model>
+	<model material="4" mesh="Cube.obj">
+		<position x="11.8262" y="-3.4368" z="3.5321"/>
+		<rotation x="0.0" y="261.1557" z="0.0"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</model>
+	<model material="4" mesh="Cube.obj">
+		<position x="11.9414" y="-2.4368" z="3.5321"/>
+		<rotation x="0.0" y="124.8508" z="0.0"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</model>
+	<model material="4" mesh="Cube.obj">
+		<position x="11.8262" y="-1.4368" z="3.5321"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</model>
+	<model material="4" mesh="Cube.obj">
+		<position x="11.7756" y="-0.4368" z="3.5321"/>
+		<rotation x="0.0" y="164.6439" z="0.0"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</model>
+	<model material="4" mesh="Cube.obj">
+		<position x="11.9671" y="-4.4368" z="3.9879"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</model>
+	<wall material="3">
+		<position x="11.8722" y="-2.5565" z="3.5947"/>
+		<scale x="0.4424" y="4.6407" z="0.7212"/>
 	</wall>
+	<model material="5" mesh="Door.obj">
+		<position x="0.0" y="0.0" z="5.0"/>
+		<rotation x="0.0" y="270.0" z="0.0"/>
+		<scale x="1.0" y="2.0" z="0.1"/>
+	</model>
 </map>
