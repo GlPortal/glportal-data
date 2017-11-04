@@ -12,8 +12,8 @@
 		"hide_portals_by_click": true,
 		"cursor_visibility": false,
 		"bindings": {
-			"look_x": ["mousex"],
-			"look_y": ["mousey"]
+			"look_x": ["mouse_x"],
+			"look_y": ["mouse_y"]
 		}
 	},
 	"keyboard": {
@@ -28,23 +28,23 @@
 	},
 	"controller": {
 		"bindings": {
-			"jump": ["a"],
-			"move_x": ["leftx"],
-			"move_y": ["lefty"],
-			"look_x": ["rightx"],
-			"look_y": ["righty"]
+			"jump": ["button_a"],
+			"move_x": ["left_stick_x"],
+			"move_y": ["left_stick_y"],
+			"look_x": ["right_stick_x"],
+			"look_y": ["right_stick_y"]
 		},
 		"sensitivity": {
-			"leftx": 1.0,
-			"lefty": 1.0,
-			"rightx": 0.05,
-			"righty": 0.05
+			"left_stick_x": 1.0,
+			"left_stick_y": 1.0,
+			"right_stick_x": 0.05,
+			"right_stick_y": 0.05
 		},
 		"dead_zone": {
-			"leftx": 8000,
-			"lefty": 8000,
-			"rightx": 8000,
-			"righty": 8000
+			"left_stick_x": 8000,
+			"left_stick_y": 8000,
+			"right_stick_x": 8000,
+			"right_stick_y": 8000
 		}
 	},
 	"sound": {
