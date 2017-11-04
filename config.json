@@ -8,9 +8,44 @@
 		"recursive_portal": 3
 	},
 	"mouse": {
-		"sensitivity": 0.30,
+		"sensitivity": 1.00,
 		"hide_portals_by_click": true,
-		"cursor_visibility": false
+		"cursor_visibility": false,
+		"bindings": {
+			"look_x": ["mousex"],
+			"look_y": ["mousey"]
+		}
+	},
+	"keyboard": {
+		"bindings": {
+			"jump": ["Space"],
+			"forward": ["W", "Up"],
+			"back": ["S", "Down"],
+			"left": ["A", "Left"],
+			"right": ["D", "Right"],
+			"quit": ["Q"]
+		}
+	},
+	"controller": {
+		"bindings": {
+			"jump": ["a"],
+			"move_x": ["leftx"],
+			"move_y": ["lefty"],
+			"look_x": ["rightx"],
+			"look_y": ["righty"]
+		},
+		"sensitivity": {
+			"leftx": 1.0,
+			"lefty": 1.0,
+			"rightx": 0.05,
+			"righty": 0.05
+		},
+		"dead_zone": {
+			"leftx": 8000,
+			"lefty": 8000,
+			"rightx": 8000,
+			"righty": 8000
+		}
 	},
 	"sound": {
 		"enable": true
@@ -25,9 +60,6 @@
 		},
 		"wireframes": {
       "enable": false
-    },
-    "flying": {
-      "enable": true
     }
 	}
 }
