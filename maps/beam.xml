@@ -5,6 +5,7 @@
 		<material id="2" name="models/light-fixture"/>
 		<material id="3" name="wood/wood"/>
 		<material id="4" name="door/door1"/>
+		<material id="5" name="door/door"/>
 	</materials>
 	<wall material="1">
 		<position x="2.0" y="6.0" z="-0.5"/>
@@ -91,10 +92,11 @@
 		<position x="10.0" y="5.9571" z="5.0"/>
 		<color b="0.9" g="0.95" r="1.0"/>
 	</light>
-	<end>
+	<model material="5" mesh="Door.obj">
 		<position x="25.0" y="0.0" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
-	</end>
+		<scale x="1.0" y="2.0" z="0.1"/>
+	</model>
 	<trigger file="beam1" type="map">
 		<position x="25.0" y="0.876" z="5.0"/>
 		<rotation x="0.0" y="90.0" z="0.0"/>
