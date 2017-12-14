@@ -6,6 +6,8 @@
 		<material id="3" name="models/light-fixture"/>
 		<material id="4" name="door/door1"/>
 		<material id="5" name="door/door"/>
+		<material id="6" name="crate/crate"/>
+		<material id="7" name="concrete/wall00"/>
 	</materials>
 	<wall material="1">
 		<position x="5.125" y="-0.125" z="2.5"/>
@@ -186,11 +188,6 @@
 		<position x="44.6271" y="7.9545" z="5.0334"/>
 		<scale x="2.0" y="0.091" z="0.301"/>
 	</model>
-	<wall material="2">
-		<position x="9.8401" y="0.1278" z="6.117"/>
-		<rotation x="0.0" y="341.4144" z="0.0"/>
-		<scale x="12.0" y="0.25" z="0.5"/>
-	</wall>
 	<wall material="1">
 		<position x="25.0" y="-5.5" z="5.0"/>
 		<scale x="10.0" y="1.0" z="10.0"/>
@@ -616,4 +613,34 @@
 		<rotation x="0.0" y="270.0" z="0.0"/>
 		<scale x="1.0" y="2.0" z="0.1"/>
 	</model>
+	<wall material="6">
+		<position x="9.5982" y="-4.0" z="6.6198"/>
+		<scale x="2.0" y="2.0" z="2.0"/>
+	</wall>
+	<wall material="6">
+		<position x="9.5982" y="-2.0" z="6.6198"/>
+		<rotation x="0.0" y="47.1907" z="0.0"/>
+		<scale x="2.0" y="2.0" z="2.0"/>
+	</wall>
+	<wall material="2">
+		<position x="14.8662" y="0.1278" z="6.117"/>
+		<scale x="4.0" y="0.25" z="0.5"/>
+	</wall>
+	<wall material="6">
+		<position x="16.3087" y="1.1361" z="7.6279"/>
+		<rotation x="4.0358" y="47.0375" z="4.345"/>
+		<scale x="2.0" y="2.0" z="2.0"/>
+	</wall>
+	<wall material="7">
+		<position x="30.0" y="7.5" z="2.0"/>
+		<scale x="10.0" y="1.0" z="4.0"/>
+	</wall>
+	<wall material="7">
+		<position x="29.5" y="-2.5" z="5.0"/>
+		<scale x="1.0" y="5.0" z="10.0"/>
+	</wall>
+	<wall material="6">
+		<position x="32.2418" y="1.0" z="6.6198"/>
+		<scale x="2.0" y="2.0" z="2.0"/>
+	</wall>
 </map>
