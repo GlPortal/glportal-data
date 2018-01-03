@@ -8,7 +8,7 @@
     "recursive_portal": 3
   },
   "mouse": {
-    "sensitivity": 1.00,
+    "sensitivity": 3.00,
     "hide_portals_by_click": true,
     "cursor_visibility": false,
     "bindings": {
