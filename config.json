@@ -17,7 +17,7 @@
   },
   "keyboard": {
     "bindings": {
-      "jump": ["Space"],
+      "jump": ["Space", "Backspace"],
       "forward": ["W", "Up"],
       "back": ["S", "Down"],
       "left": ["A", "Left"],
