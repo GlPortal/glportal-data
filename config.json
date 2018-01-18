@@ -37,7 +37,9 @@
     },
     "dead_zone": {
       "stick_left": 0.4,
-      "stick_right": 0.4
+      "stick_right": 0.4,
+      "trigger_left": 0.3,
+      "trigger_right": 0.3
     }
   },
   "sound": {
