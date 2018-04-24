@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<map>
+	<materials>
+		<material id="1" name="boxes/dev00"/>
+		<material id="2" name="metal/tiles00x3"/>
+		<material id="3" name="door/door"/>
+		<material id="4" name="concrete/concrete"/>
+	</materials>
+	<spawn>
+		<position x="-0.8441" y="0.3563" z="2.0868"/>
+		<rotation x="358.8442" y="89.7516" z="0"/>
+	</spawn>
+	<light distance="30.0" energy="1.0" specular="1">
+		<position x="0.0" y="0.0" z="-0.0"/>
+		<color b="1.0" g="1.0" r="1.0"/>
+	</light>
+	<end>
+		<position x="-9.8414" y="-3.4359" z="2.2563"/>
+		<rotation x="0.0" y="264.0566" z="0.0"/>
+	</end>
+	<wall material="4">
+		<position x="-1.1766" y="-2.2597" z="2.0149"/>
+		<scale x="18.351" y="2.0" z="2.0"/>
+	</wall>
+	<trigger type="script">
+		<position x="-5.7335" y="0.0052" z="2.0072"/>
+		<scale x="2.0" y="2.0" z="2.0"/>
+    <code>
+      #exit();
+      playerMoveY(10);
+      #killPlayer();
+      #puts("Fooo");
+    </code>
+	</trigger>
+	<wall material="2">
+		<position x="-7.1684" y="-0.0808" z="1.9881"/>
+		<scale x="0.4137" y="0.4137" z="0.4137"/>
+	</wall>
+	<wall material="1">
+		<position x="-1.1781" y="-0.2827" z="0.0027"/>
+		<scale x="18.351" y="2.0" z="2.0"/>
+	</wall>
+	<wall material="1">
+		<position x="-1.1781" y="-0.2663" z="3.9967"/>
+		<scale x="18.351" y="2.0" z="2.0"/>
+	</wall>
+	<wall material="1">
+		<position x="8.3488" y="-0.2663" z="2.0027"/>
+		<scale x="0.8252" y="2.0" z="2.0"/>
+	</wall>
+	<wall material="1">
+		<position x="-10.7743" y="-0.2663" z="2.0027"/>
+		<scale x="0.8252" y="2.0" z="2.0"/>
+	</wall>
+</map>
