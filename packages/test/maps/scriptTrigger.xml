@@ -26,10 +26,7 @@
 		<position x="-5.7335" y="0.0052" z="2.0072"/>
 		<scale x="2.0" y="2.0" z="2.0"/>
     <code>
-      #exit();
       playerMoveY(10);
-      #killPlayer();
-      #puts("Fooo");
     </code>
 	</trigger>
 	<wall material="2">
