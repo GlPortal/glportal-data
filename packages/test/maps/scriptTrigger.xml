@@ -26,7 +26,9 @@
 		<position x="-5.7335" y="0.0052" z="2.0072"/>
 		<scale x="2.0" y="2.0" z="2.0"/>
     <code>
-      playerMoveY(10);
+      logDebug("script", "ScriptTrigger executed");
+      playerJump();
+      playerMoveY(1);
     </code>
 	</trigger>
 	<wall material="2">
